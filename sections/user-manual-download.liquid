@@ -1,0 +1,84 @@
+{%- render 'section-spacing-collapsing' -%}
+<style>
+  .user-manual-download-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+</style>
+<div {% render 'section-properties' %}>
+  <div class="section-stack">
+    <div class="user-manual-download-content">
+      <h2 class="user-manual-title">{{ section.settings.header }}</h2>
+      <div class="user-manual-download-box">
+        {% for item in section.blocks %}
+          <div class="manual-item"></div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "User Manual Download",
+  "class": "shopify-section--user-manual-download",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "header",
+      "label": "标题",
+      "default": "SSD Enclosure"
+    },
+    {
+      "type": "header",
+      "content": "以下为模板基础配置",
+      "info": "以下配置为模板自带的snippets文件需要的配置项，为了保持模板风格的统一"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "manual",
+      "name": "Manual",
+      "settings": [
+        {
+          "type": "url",
+          "id": "manual_url",
+          "label": "说明书下载链接"
+        },
+        {
+          "type": "image_picker",
+          "id": "manual_img",
+          "label": "说明书封面图"
+        },
+        {
+          "type": "text",
+          "id": "manual_text",
+          "label": "说明书标题"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "User Manual Download",
+      "category": "Download"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,65 @@
+{%- render 'section-spacing-collapsing' -%}
+<style>
+  .single-image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+</style>
+<div {% render 'section-properties' %}>
+  <div class="section-stack">
+    <div class="single-image-content">
+      <picture>
+        <source media="(max-width: 767px)" srcset="{{ section.settings.single_img_mb | image_url: width: master }}">
+        <source media="(min-width: 768px)" srcset="{{ section.settings.single_img_pc | image_url: width: master }}">
+        <img src="{{ section.settings.single_img_pc | image_url: width: master }}">
+      </picture>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Single Image",
+  "class": "shopify-section--single-image",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "single_img_pc",
+      "label": "PC端图片"
+    },
+    {
+      "type": "image_picker",
+      "id": "single_img_mb",
+      "label": "移动端图片"
+    },
+    {
+      "type": "header",
+      "content": "以下为模板基础配置",
+      "info": "以下配置为模板自带的snippets文件需要的配置项，为了保持模板风格的统一"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Single Image",
+      "category": "Media"
+    }
+  ]
+}
+{% endschema %}
