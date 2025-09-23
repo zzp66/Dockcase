@@ -1,14 +1,31 @@
 {%- render 'section-spacing-collapsing' -%}
+{% if section.settings.enable_img_radius == false %}
+  {% capture radius %}
+    no-radius
+  {% endcapture %}
+{% else %}
+  {% capture radius %}
+    is-radius
+  {% endcapture %}
+{% endif %}
 <style>
   .single-image-content img {
     max-width: 100%;
     height: auto;
+  }
+  .{{ section.id }}.single-image-content.is-radius img {
     border-radius: 8px;
+  }
+  .{{ section.id }}.single-image-content.no-radius img {
+    border-radius: initial;
+  }
+  #shopify-section-{{ section.id }} .section.no-padding-bottom{
+    padding-block-end: 0;
   }
 </style>
 <div {% render 'section-properties' %}>
   <div class="section-stack">
-    <div class="single-image-content">
+    <div class="single-image-content {{ section.id }} {{ radius }}">
       <picture>
         <source media="(max-width: 767px)" srcset="{{ section.settings.single_img_mb | image_url: width: master }}">
         <source media="(min-width: 768px)" srcset="{{ section.settings.single_img_pc | image_url: width: master }}">
@@ -32,6 +49,18 @@
       "type": "image_picker",
       "id": "single_img_mb",
       "label": "移动端图片"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_padding_bottom",
+      "label": "图片下边间距",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_img_radius",
+      "label": "图片圆角",
+      "default": true
     },
     {
       "type": "header",
