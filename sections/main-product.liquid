@@ -11,7 +11,15 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 12px;
-    align-items: center;
+    align-items: stretch;
+  }
+  .info-icon-text-box{
+    display: grid;
+    gap: 8px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
   }
   .info-icon-text{
     display: flex;
@@ -22,9 +30,9 @@
     height: auto;
   }
   .info-icon-text p.info-icon-text-info{
-    font-size: 16px;
-    line-height: 18px;
-    margin: 0 0 0 5px;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 0 0 8px;
   }
 
   @media screen and (max-width:767px){

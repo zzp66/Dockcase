@@ -74,17 +74,23 @@
 
         {%- when 'icon_text' -%}
             <div class="product-info__icon-text">
-              <div class="info-icon-text">
-                <img src="{{ block.settings.icon_text_icon_1 | image_url: width: master }}" alt="">
-                <p class="info-icon-text-info">{{ block.settings.icon_text_text_1 }}</p>
+              <div class="info-icon-text-box">
+                <div class="info-icon-text">
+                  <img src="{{ block.settings.icon_text_icon_1 | image_url: width: master }}" alt="">
+                  <p class="info-icon-text-info">{{ block.settings.icon_text_text_1 }}</p>
+                </div>
               </div>
-              <div class="info-icon-text">
-                <img src="{{ block.settings.icon_text_icon_2 | image_url: width: master }}" alt="">
-                <p class="info-icon-text-info">{{ block.settings.icon_text_text_2 }}</p>
+              <div class="info-icon-text-box">
+                <div class="info-icon-text">
+                  <img src="{{ block.settings.icon_text_icon_2 | image_url: width: master }}" alt="">
+                  <p class="info-icon-text-info">{{ block.settings.icon_text_text_2 }}</p>
+                </div>
               </div>
-              <div class="info-icon-text">
-                <img src="{{ block.settings.icon_text_icon_3 | image_url: width: master }}" alt="">
-                <p class="info-icon-text-info">{{ block.settings.icon_text_text_3 }}</p>
+              <div class="info-icon-text-box">
+                <div class="info-icon-text">
+                  <img src="{{ block.settings.icon_text_icon_3 | image_url: width: master }}" alt="">
+                  <p class="info-icon-text-info">{{ block.settings.icon_text_text_3 }}</p>
+                </div>
               </div>
             </div>
 

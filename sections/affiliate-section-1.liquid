@@ -1,0 +1,43 @@
+{%- render 'section-spacing-collapsing' -%}
+<style></style>
+<div {% render 'section-properties' %}>
+  <div class="section-stack">
+    <div class="affiliate-section1-content"></div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Affiliate Section 1",
+  "class": "shopify-section--affiliate-section1",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "以下为模板基础配置",
+      "info": "以下配置为模板自带的snippets文件需要的配置项，为了保持模板风格的统一"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Affiliate Section 1",
+      "category": "Content"
+    }
+  ]
+}
+{% endschema %}
