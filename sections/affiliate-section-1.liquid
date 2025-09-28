@@ -1,8 +1,77 @@
 {%- render 'section-spacing-collapsing' -%}
-<style></style>
+<style>
+  .affiliate-section1 {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: stretch;
+  }
+  .affiliate-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 30px;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .affiliate-img {
+    display: flex;
+  }
+  .affiliate-item img {
+    max-width: 80px;
+    height: auto;
+  }
+  p.affiliate-text {
+    margin: 20px 0 0;
+    font-size: 1.2rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+  }
+  @media screen and (max-width: 767px) {
+    .affiliate-section1 {
+      margin-top: 25px;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .affiliate-item {
+      padding: 40px 10px;
+    }
+    .affiliate-item img {
+      max-width: 50px;
+    }
+    p.affiliate-text {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+</style>
 <div {% render 'section-properties' %}>
   <div class="section-stack">
-    <div class="affiliate-section1-content"></div>
+    <div class="affiliate-section1-content">
+      {%- if section.settings.title != blank -%}
+        <h2 class="h2 text-center">
+          {%- render 'styled-text',
+            content: section.settings.title,
+            text_color: section.settings.heading_color,
+            gradient: section.settings.heading_gradient
+          -%}
+        </h2>
+      {%- endif -%}
+      <div class="affiliate-section1">
+        {% for block in section.blocks %}
+          <div class="affiliate-item">
+            <div class="affiliate-img">
+              <img src="{{ block.settings.item_img | image_url: width: master }}" alt="">
+            </div>
+            <p class="affiliate-text">{{ block.settings.item_text }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </div>
 {% schema %}
@@ -11,6 +80,12 @@
   "class": "shopify-section--affiliate-section1",
   "tag": "section",
   "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Why Affiliate Choose Dockcase"
+    },
     {
       "type": "header",
       "content": "以下为模板基础配置",
@@ -24,6 +99,16 @@
     },
     {
       "type": "color",
+      "id": "heading_color",
+      "label": "Heading color"
+    },
+    {
+      "type": "color_background",
+      "id": "heading_gradient",
+      "label": "Heading gradient"
+    },
+    {
+      "type": "color",
       "id": "background",
       "label": "Background"
     },
@@ -31,6 +116,24 @@
       "type": "color_background",
       "id": "background_gradient",
       "label": "Background gradient"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "item_img",
+          "label": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "item_text",
+          "label": "Text"
+        }
+      ]
     }
   ],
   "presets": [
