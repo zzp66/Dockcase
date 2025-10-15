@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     padding: 40px 30px;
-    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    background: {{ section.settings.item_background_gradient }};
     border-radius: 8px;
     overflow: hidden;
   }
@@ -87,9 +87,13 @@
       "default": "Why Affiliate Choose Dockcase"
     },
     {
+      "type": "color_background",
+      "id": "item_background_gradient",
+      "label": "Item块的背景色修改"
+    },
+    {
       "type": "header",
-      "content": "以下为模板基础配置",
-      "info": "以下配置为模板自带的snippets文件需要的配置项，为了保持模板风格的统一"
+      "content": "以下为模板基础配置"
     },
     {
       "type": "checkbox",

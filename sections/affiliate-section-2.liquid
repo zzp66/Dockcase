@@ -1,0 +1,124 @@
+{%- render 'section-spacing-collapsing' -%}
+<style>
+  .affiliate-schema {
+    max-width: {{ section.settings.affiliate_width }}px;
+    margin: 0 auto;
+    padding: 30px;
+    background: {{ section.settings.schema_background_gradient }};
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  .affiliate-schema img {
+    max-width: 300px;
+    height: auto;
+  }
+  .affiliate-schema a {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+  }
+  @media screen and (max-width: 767px) {
+    .affiliate-schema img{
+        max-width: 240px;
+    }
+    .affiliate-schema a{
+        margin-top: 20px;
+    }
+  }
+</style>
+<div {% render 'section-properties' %}>
+  <div class="section-stack">
+    <div class="affiliate-section2-content">
+      <div class="affiliate-section2">
+        <div class="affiliate-schema">
+          <img src="{{ section.settings.affiliate_icon | image_url: width: master }}" alt="">
+          <a href="{{ section.settings.affiliate_link }}" class="affiliate-link">
+            {{- section.settings.affiliate_link_text -}}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Affiliate Section 2",
+  "class": "shopify-section--affiliate-section2",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "affiliate_icon",
+      "label": "图标"
+    },
+    {
+      "type": "url",
+      "id": "affiliate_link",
+      "label": "按钮链接"
+    },
+    {
+      "type": "text",
+      "id": "affiliate_link_text",
+      "label": "按钮文案",
+      "default": "Get Started"
+    },
+    {
+      "type": "number",
+      "id": "affiliate_width",
+      "label": "内容宽度",
+      "default": 800
+    },
+    {
+      "type": "color_background",
+      "id": "schema_background_gradient",
+      "label": "内容区域背景色"
+    },
+    {
+      "type": "header",
+      "content": "以下为模板基础配置"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color"
+    },
+    {
+      "type": "color_background",
+      "id": "heading_gradient",
+      "label": "Heading gradient"
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Affiliate Section 2",
+      "category": "Content"
+    }
+  ]
+}
+{% endschema %}
