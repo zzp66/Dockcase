@@ -167,16 +167,16 @@
         "background": "",
         "background_gradient": "",
         "text_color": "#ffffff",
-        "input_background": "#000000",
-        "input_text_color": "#ffffff"
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
       }
     },
     "single_image_WRVykY": {
       "type": "single-image",
       "name": "Single Image",
       "settings": {
-        "single_img_pc": "shopify://shop_images/A__PC_01_d3934c62-6d0b-497e-84c6-4a01c7e361ff.png",
-        "single_img_mb": "shopify://shop_images/A__M_01_dbe43be8-3442-4cb3-b09c-bffbccac61cf.png",
+        "single_img_pc": "shopify://shop_images/A__PC_01.png",
+        "single_img_mb": "shopify://shop_images/A__M_01_7ead95ec-8432-4165-b333-901a6ca031e6.png",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,
@@ -188,34 +188,8 @@
       "type": "single-image",
       "name": "Single Image",
       "settings": {
-        "single_img_pc": "shopify://shop_images/A__PC_02_ae86c564-705c-4cd9-93f3-63e9e7bf56db.png",
-        "single_img_mb": "shopify://shop_images/A__M_02_fb2d63af-d591-4a6a-bd05-5079dc2dfc4a.png",
-        "enable_padding_bottom": false,
-        "enable_img_radius": false,
-        "full_width": true,
-        "background": "#000000",
-        "background_gradient": ""
-      }
-    },
-    "single_image_Pt3qXg": {
-      "type": "single-image",
-      "name": "Single Image",
-      "settings": {
-        "single_img_pc": "shopify://shop_images/A__PC_03_8e8ed9fd-0a93-4dcb-b1b6-869be81c713b.png",
-        "single_img_mb": "shopify://shop_images/A__M_03_8a62276e-6b02-41bd-8358-5281e5384d3b.png",
-        "enable_padding_bottom": false,
-        "enable_img_radius": false,
-        "full_width": true,
-        "background": "#000000",
-        "background_gradient": ""
-      }
-    },
-    "single_image_WMfU9J": {
-      "type": "single-image",
-      "name": "Single Image",
-      "settings": {
-        "single_img_pc": "shopify://shop_images/A__PC_04_eefd3cc9-8625-4236-ab4a-14237db69075.png",
-        "single_img_mb": "shopify://shop_images/A__M_04_0c1d1eb5-989e-4c34-9117-37659894db98.png",
+        "single_img_pc": "shopify://shop_images/A__PC_02.png",
+        "single_img_mb": "shopify://shop_images/A__M_02.png",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,
@@ -229,25 +203,25 @@
         "item_Ehr6eT": {
           "type": "item",
           "settings": {
-            "item_img_pc": "shopify://shop_images/A__PC_05_8ed8191a-c3cb-4a7c-a5a2-15acf3c67c87.png",
-            "item_img_mb": "shopify://shop_images/A__M_05_1aecf596-fb30-4efe-9ddf-cd9bc20d9778.png",
-            "item_text": "10Gbps USB-A/C"
+            "item_img_pc": "shopify://shop_images/A__PC_03.png",
+            "item_img_mb": "shopify://shop_images/A__M_05.png",
+            "item_text": "100WPD"
           }
         },
         "item_FDbKUj": {
           "type": "item",
           "settings": {
-            "item_img_pc": "shopify://shop_images/A__PC_05-2_378e54d8-b6b5-4502-bd1f-7619784cb89f.png",
-            "item_img_mb": "shopify://shop_images/A__M_05-2_18c937c2-3bb9-4df5-959e-20534ebe830d.png",
-            "item_text": "Turbo Cooling Fan"
+            "item_img_pc": "shopify://shop_images/A__PC_03-3.png",
+            "item_img_mb": "shopify://shop_images/A__M_05-2.png",
+            "item_text": "3S Power Loss Protection"
           }
         },
         "item_xmFp6F": {
           "type": "item",
           "settings": {
-            "item_img_pc": "shopify://shop_images/A__PC_05-3_4856a46f-b26c-4b4d-bfb5-6ae74af6c0d8.png",
-            "item_img_mb": "shopify://shop_images/A__M_05-3_2c3e23ee-4ac8-4569-a173-1546709b04b4.png",
-            "item_text": "100W PD"
+            "item_img_pc": "shopify://shop_images/A__PC_03-4.png",
+            "item_img_mb": "shopify://shop_images/A__M_05-3.png",
+            "item_text": "Read-Only Mode"
           }
         }
       },
@@ -263,69 +237,62 @@
         "background_gradient": ""
       }
     },
+    "single_image_7DdFUj": {
+      "type": "single-image",
+      "name": "Single Image",
+      "settings": {
+        "single_img_pc": "shopify://shop_images/A__PC_04.png",
+        "single_img_mb": "shopify://shop_images/A__M_03.png",
+        "enable_padding_bottom": false,
+        "enable_img_radius": false,
+        "full_width": true,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "single_image_cB4kRQ": {
+      "type": "single-image",
+      "name": "Single Image",
+      "settings": {
+        "single_img_pc": "shopify://shop_images/A__PC_05.png",
+        "single_img_mb": "shopify://shop_images/A__M_04.png",
+        "enable_padding_bottom": false,
+        "enable_img_radius": false,
+        "full_width": true,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
     "media_with_swiper_ge9dpr": {
       "type": "media-with-swiper",
       "blocks": {
         "item_g7diDK": {
           "type": "item",
           "settings": {
-            "item_img_pc": "shopify://shop_images/A__PC_06_db1baef9-2343-418b-9d02-9a50e6992a9f.png",
-            "item_img_mb": "shopify://shop_images/A__M_06_094a9510-54bf-48d8-9aa0-bc25434c2b1b.png",
-            "item_text": "Touchscreen"
+            "item_img_pc": "shopify://shop_images/A__PC_07.png",
+            "item_img_mb": "shopify://shop_images/A__M_06.png",
+            "item_text": "4K ProRes"
           }
         },
         "item_MWXwMd": {
           "type": "item",
           "settings": {
-            "item_img_pc": "shopify://shop_images/A__PC_06-2_d0236406-9df5-4626-9015-50b902721087.png",
-            "item_img_mb": "shopify://shop_images/A__M_06-2_4bf30641-f485-465e-b648-7a35e6fe6b7f.png",
-            "item_text": "Buy Together"
+            "item_img_pc": "shopify://shop_images/A__PC_07-2.png",
+            "item_img_mb": "shopify://shop_images/A__M_06-2.png",
+            "item_text": "10Gbps High Speed"
+          }
+        },
+        "item_jXM3hb": {
+          "type": "item",
+          "settings": {
+            "item_text": ""
           }
         }
       },
       "block_order": [
         "item_g7diDK",
-        "item_MWXwMd"
-      ],
-      "name": "Media With Swiper",
-      "settings": {
-        "full_width": false,
-        "background": "",
-        "background_gradient": ""
-      }
-    },
-    "media_with_swiper_QiKPpt": {
-      "type": "media-with-swiper",
-      "blocks": {
-        "item_ybBrFg": {
-          "type": "item",
-          "settings": {
-            "item_img_pc": "shopify://shop_images/A__PC_07_447ee5e6-cc8a-4f85-b2a1-adc39dc7bb58.png",
-            "item_img_mb": "shopify://shop_images/A__M_07_909d1740-aed2-417e-a4b2-a23a49fdaf8b.png",
-            "item_text": "7-in-1 Hub"
-          }
-        },
-        "item_bWYRBP": {
-          "type": "item",
-          "settings": {
-            "item_img_pc": "shopify://shop_images/A__PC_07-2_7c8af638-1cfc-421a-ad83-ec0e648bd8db.png",
-            "item_img_mb": "shopify://shop_images/A__M_07-2_ed93715d-5f88-42fd-9233-5c54bae26de6.png",
-            "item_text": "Not Applicable to"
-          }
-        },
-        "item_FGW8dY": {
-          "type": "item",
-          "settings": {
-            "item_img_pc": "shopify://shop_images/A__PC_07-3_f468c563-c4a4-49de-a127-d74ebc5e59fa.png",
-            "item_img_mb": "shopify://shop_images/A__M_07-3_6838218b-9e98-455e-a75c-37d745d4de6f.png",
-            "item_text": "It Work With"
-          }
-        }
-      },
-      "block_order": [
-        "item_ybBrFg",
-        "item_bWYRBP",
-        "item_FGW8dY"
+        "item_MWXwMd",
+        "item_jXM3hb"
       ],
       "name": "Media With Swiper",
       "settings": {
@@ -341,21 +308,21 @@
           "type": "headings",
           "settings": {
             "heading_1": "Model",
-            "heading_2": "Screen",
-            "heading_3": "Control",
-            "heading_4": "CFexpress Type A",
-            "heading_5": "CFexpress Type B",
-            "heading_6": "M.2 SSD Slot",
-            "heading_7": "SD & TF Card Slot",
-            "heading_8": "HDMI",
-            "heading_9": "USB-A",
-            "heading_10": "USB-C",
-            "heading_11": "Power Supply",
-            "heading_12": "Cable",
-            "heading_13": "Material",
-            "heading_14": "Firmware",
-            "heading_15": "Size",
-            "heading_16": "Weight",
+            "heading_2": "SKU",
+            "heading_3": "Width",
+            "heading_4": "Height",
+            "heading_5": "Weight",
+            "heading_6": "",
+            "heading_7": "",
+            "heading_8": "",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
             "heading_17": "",
             "heading_18": "",
             "heading_19": "",
@@ -366,22 +333,22 @@
           "type": "values",
           "settings": {
             "product": "",
-            "value_1": "<p>DPR71D</p>",
-            "value_2": "<p>1.90” 320*170 LCD</p>",
-            "value_3": "<p>Touchscreen</p>",
-            "value_4": "<p>/</p>",
-            "value_5": "<p>/</p>",
-            "value_6": "<p>Supports M Key and B&M Key<br/>2230/2242 M.2 NVMe/PCIe SSD <br/>Up to 2TB</p>",
-            "value_7": "<p>UHS-Ⅱ 312MB/s</p>",
-            "value_8": "<p>HDMI 2.1<br/>8K30Hz/4K120</p>",
-            "value_9": "<p>USB3.2 10G*1</p>",
-            "value_10": "<p>USB3.2 10G*1</p>",
-            "value_11": "<p>USB-C PD 100W<br/>24V CC Protection</p>",
-            "value_12": "<p>Full-featured Data Cable</p>",
-            "value_13": "<p>Aluminium Alloy<br/>Tempered Glass</p>",
-            "value_14": "<p>Upgradable</p>",
-            "value_15": "<p>97.8*55.0*20.9mm</p>",
-            "value_16": "<p>113.3g</p>",
+            "value_1": "<p>MW65</p>",
+            "value_2": "<p>ABC-1</p>",
+            "value_3": "<p>165mm x 190mm x 66mm</p>",
+            "value_4": "<p>160mm</p>",
+            "value_5": "<p>245g</p>",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
             "value_17": "",
             "value_18": "",
             "value_19": "",
@@ -398,8 +365,8 @@
       "name": "Feature Chart",
       "settings": {
         "full_width": true,
-        "subheading": "",
-        "title": "Specification",
+        "subheading": "About the MW65",
+        "title": "Our Most Technically Sophisticated Noise-Cancelling Wireless Headphones",
         "content": "",
         "button_text": "",
         "button_url": "",
@@ -428,48 +395,48 @@
         "headings_CqrpVD": {
           "type": "headings",
           "settings": {
-            "heading_1": "SKU",
-            "heading_2": "Screen",
-            "heading_3": "Control",
-            "heading_4": "CFexpress Type A",
-            "heading_5": "CFexpress Type B",
-            "heading_6": "M.2 SSD Slot",
-            "heading_7": "SD & TF Card Slot",
-            "heading_8": "HDMI",
-            "heading_9": "USB-A",
-            "heading_10": "USB-C",
-            "heading_11": "Power Supply",
-            "heading_12": "Cable",
-            "heading_13": "Material",
-            "heading_14": "Firmware",
-            "heading_15": "Size",
-            "heading_16": "Weight",
+            "heading_1": "Heading 1",
+            "heading_2": "Heading 2",
+            "heading_3": "",
+            "heading_4": "",
+            "heading_5": "",
+            "heading_6": "",
+            "heading_7": "",
+            "heading_8": "",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
             "heading_17": "",
             "heading_18": "",
             "heading_19": "",
             "heading_20": ""
           }
         },
-        "values_VpfiDL": {
+        "values_UyNgki": {
           "type": "values",
           "settings": {
-            "product": "dockcase-smart-usb-c-hub-7-in-1-with-m-2-ssd-enclosure",
-            "value_1": "<p>DPR71D</p>",
-            "value_2": "<p>1.90” 320*170 LCD</p>",
-            "value_3": "<p>Touchscreen</p>",
-            "value_4": "<p>/</p>",
-            "value_5": "<p>/</p>",
-            "value_6": "<p>Supports M Key and B&M Key<br/>2230/2242 M.2 NVMe/PCIe SSD <br/>Up to 2TB</p>",
-            "value_7": "<p>UHS-Ⅱ 312MB/s</p>",
-            "value_8": "<p>HDMI 2.1<br/>8K30Hz/4K120</p>",
-            "value_9": "<p>USB3.2 10G*1</p>",
-            "value_10": "<p>USB3.2 10G*1</p>",
-            "value_11": "<p>USB-C PD 100W<br/>24V CC Protection</p>",
-            "value_12": "<p>Full-featured Data Cable</p>",
-            "value_13": "<p>Aluminium Alloy<br/>Tempered Glass</p>",
-            "value_14": "<p>Upgradable</p>",
-            "value_15": "<p>97.8*55.0*20.9mm</p>",
-            "value_16": "<p>113.3g</p>",
+            "product": "dockcase-smart-10-in-1-usb-c-hub-dual-hdmi-explorer-edition",
+            "value_1": "<p>Value 1</p>",
+            "value_2": "<p>Value 2</p>",
+            "value_3": "",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
             "value_17": "",
             "value_18": "",
             "value_19": "",
@@ -478,26 +445,26 @@
             "view_button_text_color": ""
           }
         },
-        "values_UyNgki": {
+        "values_VpfiDL": {
           "type": "values",
           "settings": {
-            "product": "dockcase-studio-smart-8-in-1-usb-c-hub",
-            "value_1": "<p>DPR81F</p>",
-            "value_2": "<p>1.90” 320*170 LCD</p>",
-            "value_3": "<p>Touchscreen</p>",
-            "value_4": "<p>800MB/s</p>",
-            "value_5": "<p>1000MB/s</p>",
-            "value_6": "<p>/</p>",
-            "value_7": "<p>UHS-Ⅱ 312MB/s</p>",
-            "value_8": "<p>HDMI 2.1<br/>4K120/60Hz</p>",
-            "value_9": "<p>USB3.2 10G*1</p>",
-            "value_10": "<p>USB3.2 10G*1</p>",
-            "value_11": "<p>USB-C PD 100W<br/>24V CC Protection</p>",
-            "value_12": "<p>Full-featured Data Cable</p>",
-            "value_13": "<p>Aluminium Alloy<br/>Tempered Glass</p>",
-            "value_14": "<p>Upgradable</p>",
-            "value_15": "<p>97.8*55*17.8mm</p>",
-            "value_16": "<p>118g</p>",
+            "product": "dockcase-smart-magsafe-m-2-nvme-ssd-enclosure-100w-pd",
+            "value_1": "<p>Value 2-1</p>",
+            "value_2": "<p>Value 2-2</p>",
+            "value_3": "",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
             "value_17": "",
             "value_18": "",
             "value_19": "",
@@ -509,16 +476,16 @@
       },
       "block_order": [
         "headings_CqrpVD",
-        "values_VpfiDL",
-        "values_UyNgki"
+        "values_UyNgki",
+        "values_VpfiDL"
       ],
       "name": "Feature Chart",
       "settings": {
         "full_width": true,
-        "subheading": "",
-        "title": "Comparision",
-        "content": "<p>Not sure which one to choose? Compare them and choose the best version for your needs.</p>",
-        "button_text": "",
+        "subheading": "Compare",
+        "title": "Product specification",
+        "content": "<p>Not sure which one to choose? We selected our most popular wireless headphones. Compare them and choose the best version for your needs.</p>",
+        "button_text": "Learn More",
         "button_url": "#",
         "text_position": "start",
         "max_rows": 5,
@@ -566,11 +533,10 @@
     "main",
     "single_image_WRVykY",
     "single_image_Hq74Ff",
-    "single_image_Pt3qXg",
-    "single_image_WMfU9J",
     "media_with_swiper_cqnkq7",
+    "single_image_7DdFUj",
+    "single_image_cB4kRQ",
     "media_with_swiper_ge9dpr",
-    "media_with_swiper_QiKPpt",
     "feature_chart_Dr97jb",
     "feature_chart_iLHz6p",
     "related-products"

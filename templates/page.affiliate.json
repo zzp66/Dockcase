@@ -1,1 +1,271 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"content_width":"80ch"}},"image_with_text_overlay_xAzyxF":{"type":"image-with-text-overlay","blocks":{"heading_VC86tD":{"type":"heading","settings":{"text":"Join Dockcase Affiliate Program","heading_tag":"h1"}},"heading_HrPYpE":{"type":"heading","settings":{"text":"Earn endless commission!","heading_tag":"h4"}}},"block_order":["heading_VC86tD","heading_HrPYpE"],"name":"Image with text overlay","settings":{"full_width":true,"allow_transparent_header":false,"enable_parallax":false,"image_size":"auto","image":"shopify:\/\/shop_images\/banner_0e784c1e-e1a9-4c66-b00d-49941b2f90c2.png","mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","text_color":"#ffffff","overlay_color":"rgba(0,0,0,0)","overlay_opacity":20}},"affiliate_section_1_mqNXXp":{"type":"affiliate-section-1","blocks":{"item_WBhn8i":{"type":"item","settings":{"item_img":"shopify:\/\/shop_images\/01._Ongoing_Releases.png","item_text":"Ongoing Releases"}},"item_RyQJM7":{"type":"item","settings":{"item_img":"shopify:\/\/shop_images\/02._High_Commission.png","item_text":"High Commission"}},"item_88Pi79":{"type":"item","settings":{"item_img":"shopify:\/\/shop_images\/03._80_Average_Order_Value_f5d1f36f-6b53-4588-9015-3e10e63e8dfe.png","item_text":"$80+ Average Order Value"}},"item_jQ33KH":{"type":"item","settings":{"item_img":"shopify:\/\/shop_images\/04._30-Day_Cookies.png","item_text":"30-Day Cookies"}},"item_fNGxpy":{"type":"item","settings":{"item_img":"shopify:\/\/shop_images\/05._100_Countries_03ab00f8-9090-4552-af21-4a8b42978cb7.png","item_text":"100+ Countries"}},"item_VJP9PQ":{"type":"item","settings":{"item_img":"shopify:\/\/shop_images\/06._Reliable_Payouts_fa68bd9b-9c80-4752-89f3-4ec5726dde3f.png","item_text":"Reliable Payouts"}}},"block_order":["item_WBhn8i","item_RyQJM7","item_88Pi79","item_jQ33KH","item_fNGxpy","item_VJP9PQ"],"name":"Affiliate Section 1","settings":{"title":"Why Join Us?","full_width":true,"heading_color":"#f0f0f0","heading_gradient":"","background":"#000000","background_gradient":""}},"text_with_icons_UF3Wxr":{"type":"text-with-icons","blocks":{"item_apJDM7":{"type":"item","settings":{"icon":"picto-coupon","custom_icon":"shopify:\/\/shop_images\/1._Sign_Up_eaddf9c1-c51c-4412-adf1-5df4e18cdd26.png","mobile_icon_width":24,"icon_width":56,"icon_background_type":"circle","icon_background":"","icon_color":"","title":"1. Sign Up","content":"<p>Create a free account.<\/p>"}},"item_Fp6YPb":{"type":"item","settings":{"icon":"picto-coupon","custom_icon":"shopify:\/\/shop_images\/2._Get_the_Link_47b6221b-b2c8-440d-bc0a-a05ebbad7ba3.png","mobile_icon_width":24,"icon_width":56,"icon_background_type":"circle","icon_background":"","icon_color":"","title":"2. Get the Link","content":"<p>Share your unique Affiliate link everywhere.<\/p>"}},"item_WbDFKp":{"type":"item","settings":{"icon":"picto-coupon","custom_icon":"shopify:\/\/shop_images\/3._Get_Paid_ec2344e8-e6db-47c4-90ab-c6e05d6201b0.png","mobile_icon_width":24,"icon_width":56,"icon_background_type":"circle","icon_background":"","icon_color":"","title":"3. Get Paid","content":"<p>Receive your commision payout.<\/p>"}}},"block_order":["item_apJDM7","item_Fp6YPb","item_WbDFKp"],"name":"Text with icons","settings":{"full_width":true,"stack_on_mobile":false,"title":"How Do I Earn Commission?","heading_tag":"h5","text_alignment":"center","icon_spacing":"medium","background":"#000000","background_gradient":"","text_color":"#f0f0f0"}},"faq_fFVNtE":{"type":"faq","blocks":{"item_y3HXxY":{"type":"item","settings":{"title":"What is the Dockcase Affiliate Program?","content":"<p>The Dockcase Affiliate Program invites tech reviewers, content creators, bloggers, and digital communities to promote our innovative products and earn competitive commissions on validated sales referred to dockcase.com.<br\/><br\/><\/p>"}},"item_J6LyqR":{"type":"item","settings":{"title":"Who can join the Dockcase Affiliate Program?","content":"<p>Anyone! <\/p>"}},"item_7cTayY":{"type":"item","settings":{"title":"Are there any fees or costs associated with becoming an Dockcase Affiliate?","content":"<p>No, it's completely free! Sign up to the Dockcase Affiliate Program now.<\/p>"}},"item_hLA77U":{"type":"item","settings":{"title":"What types of promotions are not permitted?","content":"<p>To ensure fairness and compliance, the following promotion methods are strictly forbidden:<\/p><p>‒ False Links: Manipulating or disguising affiliate links deceptively (e.g., cloaking, redirect masking).<\/p><p>‒ Purchase Simulation: Using scripts, pop-ups, or bots to simulate clicks or purchases.<\/p><p>‒ Hidden Links: Concealing affiliate links under buttons, images, or non-linked text.<\/p><p>‒ Search Engine Placement: Bidding on Dockcase trademarks in paid ads (e.g., Google Ads\/Bing) or inserting affiliate links directly into search engine results.<\/p><p>‒ Intrusive Pop-ups: Deploying full-screen or persistent pop-ups that disrupt user experience.<\/p><p>‒ Deceptive Practices: Misleading users (e.g., fake countdown timers, false scarcity claims).<\/p><p>‒ Impersonation: Creating fake Dockcase websites or implying official partnership without authorization.<\/p><p>‒ Terms Violations: Breaching Dockcase’s program policies (e.g., coupon stacking, trademark misuse).<br\/><br\/><\/p>"}}},"block_order":["item_y3HXxY","item_J6LyqR","item_7cTayY","item_hLA77U"],"name":"FAQ","settings":{"full_width":true,"subheading":"","title":"FAQ","content":"","team_avatar_width":150,"support_hours":"","answer_time":"","button_text":"","button_url":"","text_position":"center","background":"#000000","background_gradient":"","text_color":"#f0f0f0","heading_color":"","heading_gradient":"","button_background":"","button_text_color":"","accordion_background":"","accordion_text_color":""}}},"order":["main","image_with_text_overlay_xAzyxF","affiliate_section_1_mqNXXp","text_with_icons_UF3Wxr","faq_fFVNtE"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "image_with_text_overlay_xAzyxF": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_VC86tD": {
+          "type": "heading",
+          "settings": {
+            "text": "Join Dockcase Affiliate Program",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_HrPYpE": {
+          "type": "heading",
+          "settings": {
+            "text": "Earn endless commission!",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VC86tD",
+        "heading_HrPYpE"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/banner_0e784c1e-e1a9-4c66-b00d-49941b2f90c2.png",
+        "mobile_image": "shopify://shop_images/banner-M.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "rgba(0,0,0,0)",
+        "overlay_opacity": 10
+      }
+    },
+    "affiliate_section_1_mqNXXp": {
+      "type": "affiliate-section-1",
+      "blocks": {
+        "item_WBhn8i": {
+          "type": "item",
+          "settings": {
+            "item_img": "shopify://shop_images/01._Ongoing_Releases.png",
+            "item_text": "Ongoing Releases"
+          }
+        },
+        "item_RyQJM7": {
+          "type": "item",
+          "settings": {
+            "item_img": "shopify://shop_images/02._High_Commission.png",
+            "item_text": "High Commission"
+          }
+        },
+        "item_88Pi79": {
+          "type": "item",
+          "settings": {
+            "item_img": "shopify://shop_images/03._80_Average_Order_Value_f5d1f36f-6b53-4588-9015-3e10e63e8dfe.png",
+            "item_text": "$80+ Average Order Value"
+          }
+        },
+        "item_jQ33KH": {
+          "type": "item",
+          "settings": {
+            "item_img": "shopify://shop_images/04._30-Day_Cookies.png",
+            "item_text": "30-Day Cookies"
+          }
+        },
+        "item_fNGxpy": {
+          "type": "item",
+          "settings": {
+            "item_img": "shopify://shop_images/05._100_Countries_03ab00f8-9090-4552-af21-4a8b42978cb7.png",
+            "item_text": "100+ Countries"
+          }
+        },
+        "item_VJP9PQ": {
+          "type": "item",
+          "settings": {
+            "item_img": "shopify://shop_images/06._Reliable_Payouts_fa68bd9b-9c80-4752-89f3-4ec5726dde3f.png",
+            "item_text": "Reliable Payouts"
+          }
+        }
+      },
+      "block_order": [
+        "item_WBhn8i",
+        "item_RyQJM7",
+        "item_88Pi79",
+        "item_jQ33KH",
+        "item_fNGxpy",
+        "item_VJP9PQ"
+      ],
+      "name": "Affiliate Section 1",
+      "settings": {
+        "title": "Why Join Us?",
+        "item_background_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 1), rgba(26, 26, 26, 1) 100%)",
+        "full_width": true,
+        "heading_color": "#f0f0f0",
+        "heading_gradient": "",
+        "background": "#000000",
+        "background_gradient": ""
+      }
+    },
+    "text_with_icons_UF3Wxr": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_apJDM7": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/1._Sign_Up_eaddf9c1-c51c-4412-adf1-5df4e18cdd26.png",
+            "mobile_icon_width": 24,
+            "icon_width": 56,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "1. Sign Up",
+            "content": "<p>Create a free account.</p>"
+          }
+        },
+        "item_Fp6YPb": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/2._Get_the_Link_47b6221b-b2c8-440d-bc0a-a05ebbad7ba3.png",
+            "mobile_icon_width": 24,
+            "icon_width": 56,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "2. Get the Link",
+            "content": "<p>Share your unique Affiliate link everywhere.</p>"
+          }
+        },
+        "item_WbDFKp": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/3._Get_Paid_ec2344e8-e6db-47c4-90ab-c6e05d6201b0.png",
+            "mobile_icon_width": 24,
+            "icon_width": 56,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "3. Get Paid",
+            "content": "<p>Receive your commision payout.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_apJDM7",
+        "item_Fp6YPb",
+        "item_WbDFKp"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "How Do I Earn Commission?",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#000000",
+        "background_gradient": "",
+        "text_color": "#f0f0f0"
+      }
+    },
+    "affiliate_section_2_t9EX3b": {
+      "type": "affiliate-section-2",
+      "name": "Affiliate Section 2",
+      "settings": {
+        "affiliate_icon": "shopify://shop_images/logo3.png",
+        "affiliate_link": "https://af.uppromote.com/a1f8e6/register",
+        "affiliate_link_text": "Get Started",
+        "affiliate_width": 800,
+        "schema_background_gradient": "linear-gradient(310deg, rgba(17, 189, 251, 1) 15%, rgba(17, 189, 251, 1) 83%)",
+        "full_width": true,
+        "heading_color": "",
+        "heading_gradient": "",
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "faq_fFVNtE": {
+      "type": "faq",
+      "blocks": {
+        "item_y3HXxY": {
+          "type": "item",
+          "settings": {
+            "title": "What is the Dockcase Affiliate Program?",
+            "content": "<p>The Dockcase Affiliate Program invites tech reviewers, content creators, bloggers, and digital communities to promote our innovative products and earn competitive commissions on validated sales referred to dockcase.com.<br/><br/></p>"
+          }
+        },
+        "item_J6LyqR": {
+          "type": "item",
+          "settings": {
+            "title": "Who can join the Dockcase Affiliate Program?",
+            "content": "<p>Anyone! </p>"
+          }
+        },
+        "item_7cTayY": {
+          "type": "item",
+          "settings": {
+            "title": "Are there any fees or costs associated with becoming an Dockcase Affiliate?",
+            "content": "<p>No, it's completely free! Sign up to the Dockcase Affiliate Program now.</p>"
+          }
+        },
+        "item_hLA77U": {
+          "type": "item",
+          "settings": {
+            "title": "What types of promotions are not permitted?",
+            "content": "<p>To ensure fairness and compliance, the following promotion methods are strictly forbidden:</p><p>‒ False Links: Manipulating or disguising affiliate links deceptively (e.g., cloaking, redirect masking).</p><p>‒ Purchase Simulation: Using scripts, pop-ups, or bots to simulate clicks or purchases.</p><p>‒ Hidden Links: Concealing affiliate links under buttons, images, or non-linked text.</p><p>‒ Search Engine Placement: Bidding on Dockcase trademarks in paid ads (e.g., Google Ads/Bing) or inserting affiliate links directly into search engine results.</p><p>‒ Intrusive Pop-ups: Deploying full-screen or persistent pop-ups that disrupt user experience.</p><p>‒ Deceptive Practices: Misleading users (e.g., fake countdown timers, false scarcity claims).</p><p>‒ Impersonation: Creating fake Dockcase websites or implying official partnership without authorization.</p><p>‒ Terms Violations: Breaching Dockcase’s program policies (e.g., coupon stacking, trademark misuse).<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_y3HXxY",
+        "item_J6LyqR",
+        "item_7cTayY",
+        "item_hLA77U"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 150,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "#000000",
+        "background_gradient": "",
+        "text_color": "#f0f0f0",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_xAzyxF",
+    "affiliate_section_1_mqNXXp",
+    "text_with_icons_UF3Wxr",
+    "affiliate_section_2_t9EX3b",
+    "faq_fFVNtE"
+  ]
+}

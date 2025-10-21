@@ -164,7 +164,7 @@
         "enable_video_looping": true,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
-        "background": "",
+        "background": "#000000",
         "background_gradient": "",
         "text_color": "#ffffff",
         "input_background": "#000000",
@@ -175,8 +175,8 @@
       "type": "single-image",
       "name": "Single Image",
       "settings": {
-        "single_img_pc": "shopify://shop_images/A__PC_01_d3934c62-6d0b-497e-84c6-4a01c7e361ff.png",
-        "single_img_mb": "shopify://shop_images/A__M_01_dbe43be8-3442-4cb3-b09c-bffbccac61cf.png",
+        "single_img_pc": "shopify://shop_images/A__PC_01_3fad86fc-bc2c-4252-b0ba-c4cb4e7d9d00.png",
+        "single_img_mb": "shopify://shop_images/A__M_01_ec7564e7-c09c-4ab9-aac1-6df87606b006.png",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,
@@ -188,8 +188,8 @@
       "type": "single-image",
       "name": "Single Image",
       "settings": {
-        "single_img_pc": "shopify://shop_images/A__PC_02_ae86c564-705c-4cd9-93f3-63e9e7bf56db.png",
-        "single_img_mb": "shopify://shop_images/A__M_02_fb2d63af-d591-4a6a-bd05-5079dc2dfc4a.png",
+        "single_img_pc": "shopify://shop_images/A__PC_02_6e1bc87a-1b2b-4b1a-a773-eb067e600544.png",
+        "single_img_mb": "shopify://shop_images/A__M_02_7087c15b-35ca-48ce-9183-adb68e35f2fc.png",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,
@@ -197,12 +197,12 @@
         "background_gradient": ""
       }
     },
-    "single_image_Pt3qXg": {
+    "single_image_mqAPtK": {
       "type": "single-image",
       "name": "Single Image",
       "settings": {
-        "single_img_pc": "shopify://shop_images/A__PC_03_8e8ed9fd-0a93-4dcb-b1b6-869be81c713b.png",
-        "single_img_mb": "shopify://shop_images/A__M_03_8a62276e-6b02-41bd-8358-5281e5384d3b.png",
+        "single_img_pc": "shopify://shop_images/A__PC_03_5ac29fd1-1d5c-4f19-927b-5155963faa76.png",
+        "single_img_mb": "shopify://shop_images/A__M_03_b534ae0b-8e08-4fce-ae57-a80f836b5043.png",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,
@@ -210,12 +210,12 @@
         "background_gradient": ""
       }
     },
-    "single_image_WMfU9J": {
+    "single_image_ibGVBz": {
       "type": "single-image",
       "name": "Single Image",
       "settings": {
-        "single_img_pc": "shopify://shop_images/A__PC_04_eefd3cc9-8625-4236-ab4a-14237db69075.png",
-        "single_img_mb": "shopify://shop_images/A__M_04_0c1d1eb5-989e-4c34-9117-37659894db98.png",
+        "single_img_pc": "shopify://shop_images/A__PC_06_83a24a30-f2f2-4cc9-9b9c-bcc8f26ad7d6.png",
+        "single_img_mb": "shopify://shop_images/A__M_06_7c046525-742e-4170-8002-44e22972dc16.png",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,
@@ -229,25 +229,25 @@
         "item_Ehr6eT": {
           "type": "item",
           "settings": {
-            "item_img_pc": "shopify://shop_images/A__PC_05_8ed8191a-c3cb-4a7c-a5a2-15acf3c67c87.png",
-            "item_img_mb": "shopify://shop_images/A__M_05_1aecf596-fb30-4efe-9ddf-cd9bc20d9778.png",
-            "item_text": "10Gbps USB-A/C"
+            "item_img_pc": "shopify://shop_images/A__PC_04_9df19bfe-12d0-4bb8-b26b-1e86ff799af2.png",
+            "item_img_mb": "shopify://shop_images/A__M_04_af9e2100-2975-4010-b462-870e81342b6c.png",
+            "item_text": "10s Power Loss Protection"
           }
         },
         "item_FDbKUj": {
           "type": "item",
           "settings": {
-            "item_img_pc": "shopify://shop_images/A__PC_05-2_378e54d8-b6b5-4502-bd1f-7619784cb89f.png",
-            "item_img_mb": "shopify://shop_images/A__M_05-2_18c937c2-3bb9-4df5-959e-20534ebe830d.png",
-            "item_text": "Turbo Cooling Fan"
+            "item_img_pc": "shopify://shop_images/A__PC_04-2_422b55b9-24d3-45e2-8961-94828d7124ff.png",
+            "item_img_mb": "shopify://shop_images/A__M_04-2_01f0767e-5b98-4ea0-b4b6-9f829eab63ed.png",
+            "item_text": "Write Protection"
           }
         },
         "item_xmFp6F": {
           "type": "item",
           "settings": {
-            "item_img_pc": "shopify://shop_images/A__PC_05-3_4856a46f-b26c-4b4d-bfb5-6ae74af6c0d8.png",
-            "item_img_mb": "shopify://shop_images/A__M_05-3_2c3e23ee-4ac8-4569-a173-1546709b04b4.png",
-            "item_text": "100W PD"
+            "item_img_pc": "shopify://shop_images/A__PC_04-3_34555b54-5dd5-44f9-8d83-b39c98756922.png",
+            "item_img_mb": "shopify://shop_images/A__M_04-3_d21ce33f-2196-48ac-89b0-ed9744438acd.png",
+            "item_text": "15W Auxiliary Power"
           }
         }
       },
@@ -263,29 +263,47 @@
         "background_gradient": ""
       }
     },
-    "media_with_swiper_ge9dpr": {
+    "media_with_swiper_ERhdnm": {
       "type": "media-with-swiper",
       "blocks": {
-        "item_g7diDK": {
+        "item_ei3Pqy": {
           "type": "item",
           "settings": {
-            "item_img_pc": "shopify://shop_images/A__PC_06_db1baef9-2343-418b-9d02-9a50e6992a9f.png",
-            "item_img_mb": "shopify://shop_images/A__M_06_094a9510-54bf-48d8-9aa0-bc25434c2b1b.png",
-            "item_text": "Touchscreen"
+            "item_img_pc": "shopify://shop_images/A__PC_05_6a47e96e-12fa-4596-b93b-73b851067aab.png",
+            "item_img_mb": "shopify://shop_images/A__M_05_64b120c4-7394-4c76-b461-db1441dbd9b1.png",
+            "item_text": "Up to 10Gbps High Speed"
           }
         },
-        "item_MWXwMd": {
+        "item_6K98q6": {
           "type": "item",
           "settings": {
-            "item_img_pc": "shopify://shop_images/A__PC_06-2_d0236406-9df5-4626-9015-50b902721087.png",
-            "item_img_mb": "shopify://shop_images/A__M_06-2_4bf30641-f485-465e-b648-7a35e6fe6b7f.png",
-            "item_text": "Buy Together"
+            "item_img_pc": "shopify://shop_images/A__PC_05-2_96153473-de61-4d78-ad4b-cd73d0c5e21b.png",
+            "item_img_mb": "shopify://shop_images/A__M_05-2_4bdff0ba-7b21-4b8c-93d7-17c06b11fda3.png",
+            "item_text": "4TB High Capacity"
+          }
+        },
+        "item_7AKqmP": {
+          "type": "item",
+          "settings": {
+            "item_img_pc": "shopify://shop_images/A__PC_05-3_8de1414a-15c5-414e-a51d-68cf1a898070.png",
+            "item_img_mb": "shopify://shop_images/A__M_05-3_1da477a4-c7e1-4319-af42-e5911dd2d61a.png",
+            "item_text": "Compatible SSD Models"
+          }
+        },
+        "item_BdUFbC": {
+          "type": "item",
+          "settings": {
+            "item_img_pc": "shopify://shop_images/A__PC_05-4.png",
+            "item_img_mb": "shopify://shop_images/A__M_05-4_baa34d65-3eb6-4147-96d7-883306c0b797.png",
+            "item_text": "Incompatible SSD Models"
           }
         }
       },
       "block_order": [
-        "item_g7diDK",
-        "item_MWXwMd"
+        "item_ei3Pqy",
+        "item_6K98q6",
+        "item_7AKqmP",
+        "item_BdUFbC"
       ],
       "name": "Media With Swiper",
       "settings": {
@@ -294,38 +312,29 @@
         "background_gradient": ""
       }
     },
-    "media_with_swiper_QiKPpt": {
+    "media_with_swiper_ge9dpr": {
       "type": "media-with-swiper",
       "blocks": {
-        "item_ybBrFg": {
+        "item_Wj7zDq": {
           "type": "item",
           "settings": {
-            "item_img_pc": "shopify://shop_images/A__PC_07_447ee5e6-cc8a-4f85-b2a1-adc39dc7bb58.png",
-            "item_img_mb": "shopify://shop_images/A__M_07_909d1740-aed2-417e-a4b2-a23a49fdaf8b.png",
-            "item_text": "7-in-1 Hub"
+            "item_img_pc": "shopify://shop_images/A__PC_06-2_3e7ac8d8-2da5-4da9-8825-bde72f3a1efc.png",
+            "item_img_mb": "shopify://shop_images/A__M_06-2_3395efaa-f070-4090-bb69-9ecda05143f4.png",
+            "item_text": "Dual Cooling"
           }
         },
-        "item_bWYRBP": {
+        "item_g7diDK": {
           "type": "item",
           "settings": {
-            "item_img_pc": "shopify://shop_images/A__PC_07-2_7c8af638-1cfc-421a-ad83-ec0e648bd8db.png",
-            "item_img_mb": "shopify://shop_images/A__M_07-2_ed93715d-5f88-42fd-9233-5c54bae26de6.png",
-            "item_text": "Not Applicable to"
-          }
-        },
-        "item_FGW8dY": {
-          "type": "item",
-          "settings": {
-            "item_img_pc": "shopify://shop_images/A__PC_07-3_f468c563-c4a4-49de-a127-d74ebc5e59fa.png",
-            "item_img_mb": "shopify://shop_images/A__M_07-3_6838218b-9e98-455e-a75c-37d745d4de6f.png",
-            "item_text": "It Work With"
+            "item_img_pc": "shopify://shop_images/A__PC_06-3_283e2bf2-4cb0-43eb-9202-e4c28762944a.png",
+            "item_img_mb": "shopify://shop_images/A__M_06-3_8bd6edfd-4dd3-4fe2-8487-d78aec228777.png",
+            "item_text": "Installation Guide"
           }
         }
       },
       "block_order": [
-        "item_ybBrFg",
-        "item_bWYRBP",
-        "item_FGW8dY"
+        "item_Wj7zDq",
+        "item_g7diDK"
       ],
       "name": "Media With Swiper",
       "settings": {
@@ -343,19 +352,19 @@
             "heading_1": "Model",
             "heading_2": "Screen",
             "heading_3": "Control",
-            "heading_4": "CFexpress Type A",
-            "heading_5": "CFexpress Type B",
-            "heading_6": "M.2 SSD Slot",
-            "heading_7": "SD & TF Card Slot",
-            "heading_8": "HDMI",
-            "heading_9": "USB-A",
-            "heading_10": "USB-C",
-            "heading_11": "Power Supply",
-            "heading_12": "Cable",
-            "heading_13": "Material",
-            "heading_14": "Firmware",
-            "heading_15": "Size",
-            "heading_16": "Weight",
+            "heading_4": "Power Loss Protection",
+            "heading_5": "Supported SSD Type",
+            "heading_6": "Supported SSD Capacity",
+            "heading_7": "Supported SSD Length",
+            "heading_8": "Data Port",
+            "heading_9": "Power Port",
+            "heading_10": "Power Requirement",
+            "heading_11": "Capacitor Life",
+            "heading_12": "Material",
+            "heading_13": "Firmware",
+            "heading_14": "Size",
+            "heading_15": "Weight",
+            "heading_16": "",
             "heading_17": "",
             "heading_18": "",
             "heading_19": "",
@@ -366,22 +375,22 @@
           "type": "values",
           "settings": {
             "product": "",
-            "value_1": "<p>DPR71D</p>",
-            "value_2": "<p>1.90” 320*170 LCD</p>",
-            "value_3": "<p>Touchscreen</p>",
-            "value_4": "<p>/</p>",
-            "value_5": "<p>/</p>",
-            "value_6": "<p>Supports M Key and B&M Key<br/>2230/2242 M.2 NVMe/PCIe SSD <br/>Up to 2TB</p>",
-            "value_7": "<p>UHS-Ⅱ 312MB/s</p>",
-            "value_8": "<p>HDMI 2.1<br/>8K30Hz/4K120</p>",
-            "value_9": "<p>USB3.2 10G*1</p>",
-            "value_10": "<p>USB3.2 10G*1</p>",
-            "value_11": "<p>USB-C PD 100W<br/>24V CC Protection</p>",
-            "value_12": "<p>Full-featured Data Cable</p>",
-            "value_13": "<p>Aluminium Alloy<br/>Tempered Glass</p>",
-            "value_14": "<p>Upgradable</p>",
-            "value_15": "<p>97.8*55.0*20.9mm</p>",
-            "value_16": "<p>113.3g</p>",
+            "value_1": "<p>DSWC1C-CB</p>",
+            "value_2": "<p>1.33” 240*240 LCD</p>",
+            "value_3": "<p>D-Key</p>",
+            "value_4": "<p>Typical 10 Seconds<br/></p>",
+            "value_5": "<p>M Key M.2 (NVMe)<br/>B&M Key M.2(NVMe)</p>",
+            "value_6": "<p>Max 4TB</p>",
+            "value_7": "<p>2230/2242/2260/2280</p>",
+            "value_8": "<p>USB 3.2 Gen 2 (10Gbps) </p>",
+            "value_9": "<p>15W Auxiliary Power Supply</p>",
+            "value_10": "<p>DC 5V±0.25V⎓3A </p>",
+            "value_11": "<p>Minimum charge and discharge of capacitor 500,000 times </p>",
+            "value_12": "<p>Aluminium Alloy<br/>Tempered Glass</p>",
+            "value_13": "<p>Upgradable</p>",
+            "value_14": "<p>127*39*14mm</p>",
+            "value_15": "<p>95g</p>",
+            "value_16": "",
             "value_17": "",
             "value_18": "",
             "value_19": "",
@@ -431,45 +440,45 @@
             "heading_1": "SKU",
             "heading_2": "Screen",
             "heading_3": "Control",
-            "heading_4": "CFexpress Type A",
-            "heading_5": "CFexpress Type B",
-            "heading_6": "M.2 SSD Slot",
-            "heading_7": "SD & TF Card Slot",
-            "heading_8": "HDMI",
-            "heading_9": "USB-A",
-            "heading_10": "USB-C",
-            "heading_11": "Power Supply",
-            "heading_12": "Cable",
-            "heading_13": "Material",
-            "heading_14": "Firmware",
-            "heading_15": "Size",
-            "heading_16": "Weight",
+            "heading_4": "Power Loss Protection",
+            "heading_5": "Supported SSD Type",
+            "heading_6": "Supported SSD Capacity",
+            "heading_7": "Supported SSD Length",
+            "heading_8": "Data Port",
+            "heading_9": "Power Port",
+            "heading_10": "Power Requirement",
+            "heading_11": "Capacitor Life",
+            "heading_12": "Material",
+            "heading_13": "Firmware",
+            "heading_14": "Size",
+            "heading_15": "Weight",
+            "heading_16": "",
             "heading_17": "",
             "heading_18": "",
             "heading_19": "",
             "heading_20": ""
           }
         },
-        "values_VpfiDL": {
+        "values_UyNgki": {
           "type": "values",
           "settings": {
-            "product": "dockcase-smart-usb-c-hub-7-in-1-with-m-2-ssd-enclosure",
-            "value_1": "<p>DPR71D</p>",
-            "value_2": "<p>1.90” 320*170 LCD</p>",
-            "value_3": "<p>Touchscreen</p>",
-            "value_4": "<p>/</p>",
-            "value_5": "<p>/</p>",
-            "value_6": "<p>Supports M Key and B&M Key<br/>2230/2242 M.2 NVMe/PCIe SSD <br/>Up to 2TB</p>",
-            "value_7": "<p>UHS-Ⅱ 312MB/s</p>",
-            "value_8": "<p>HDMI 2.1<br/>8K30Hz/4K120</p>",
-            "value_9": "<p>USB3.2 10G*1</p>",
-            "value_10": "<p>USB3.2 10G*1</p>",
-            "value_11": "<p>USB-C PD 100W<br/>24V CC Protection</p>",
-            "value_12": "<p>Full-featured Data Cable</p>",
-            "value_13": "<p>Aluminium Alloy<br/>Tempered Glass</p>",
-            "value_14": "<p>Upgradable</p>",
-            "value_15": "<p>97.8*55.0*20.9mm</p>",
-            "value_16": "<p>113.3g</p>",
+            "product": "dockcase-smart-magsafe-m-2-nvme-ssd-enclosure-100w-pd",
+            "value_1": "<p>DSWC1R-3B</p>",
+            "value_2": "<p>1.54\" 240 x 240 LCD</p>",
+            "value_3": "<p>D-Key</p>",
+            "value_4": "<p>Typical 3 Seconds</p>",
+            "value_5": "<p>M Key M.2 (NVMe/PCIe)<br/>B&M Key M.2(NVMe/PCIe) </p>",
+            "value_6": "<p>Max 2TB</p>",
+            "value_7": "<p>2230/2242</p>",
+            "value_8": "<p>USB 3.2 Gen 2 (10Gbps)</p>",
+            "value_9": "<p>100 PD 3.0</p>",
+            "value_10": "<p>DC 5V±0.25V⎓3A</p>",
+            "value_11": "<p>Minimum charge and discharge of capacitor 500,000 times</p>",
+            "value_12": "<p>Aluminium Alloy<br/>Tempered Glass</p>",
+            "value_13": "<p>Upgradable</p>",
+            "value_14": "<p>59.3*59.3*14.5mm</p>",
+            "value_15": "<p>53g</p>",
+            "value_16": "",
             "value_17": "",
             "value_18": "",
             "value_19": "",
@@ -478,26 +487,54 @@
             "view_button_text_color": ""
           }
         },
-        "values_UyNgki": {
+        "values_YWyDaF": {
           "type": "values",
           "settings": {
-            "product": "dockcase-studio-smart-8-in-1-usb-c-hub",
-            "value_1": "<p>DPR81F</p>",
-            "value_2": "<p>1.90” 320*170 LCD</p>",
-            "value_3": "<p>Touchscreen</p>",
-            "value_4": "<p>800MB/s</p>",
-            "value_5": "<p>1000MB/s</p>",
-            "value_6": "<p>/</p>",
-            "value_7": "<p>UHS-Ⅱ 312MB/s</p>",
-            "value_8": "<p>HDMI 2.1<br/>4K120/60Hz</p>",
-            "value_9": "<p>USB3.2 10G*1</p>",
-            "value_10": "<p>USB3.2 10G*1</p>",
-            "value_11": "<p>USB-C PD 100W<br/>24V CC Protection</p>",
-            "value_12": "<p>Full-featured Data Cable</p>",
-            "value_13": "<p>Aluminium Alloy<br/>Tempered Glass</p>",
-            "value_14": "<p>Upgradable</p>",
-            "value_15": "<p>97.8*55*17.8mm</p>",
-            "value_16": "<p>118g</p>",
+            "product": "dockcase-pocket-smart-2230-m-2-nvme-ssd-enclosure-matte-black",
+            "value_1": "<p>DCWC1M-3B</p>",
+            "value_2": "<p>1.33\" 240*240 LCD </p>",
+            "value_3": "<p>D-Key</p>",
+            "value_4": "<p>Typical 3 Seconds</p>",
+            "value_5": "<p>M Key M.2 (NVMe/PCIe)<br/>B&M Key M.2(NVMe/PCIe) </p>",
+            "value_6": "<p>Max 2TB</p>",
+            "value_7": "<p>2230</p>",
+            "value_8": "<p>USB 3.2 Gen 2 (10Gbps)</p>",
+            "value_9": "<p>/</p>",
+            "value_10": "<p>DC 5V±0.25V⎓3A</p>",
+            "value_11": "<p>Minimum charge and discharge of capacitor 500,000 times</p>",
+            "value_12": "<p>Aluminium Alloy<br/>Tempered Glass</p>",
+            "value_13": "<p>Upgradable</p>",
+            "value_14": "<p>43.5*43.5*15.0mm</p>",
+            "value_15": "<p>45g</p>",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_KTKffh": {
+          "type": "values",
+          "settings": {
+            "product": "dockcase-smart-m-2-nvme-ssd-enclosure-explorer-edition",
+            "value_1": "<p>DSWC1C-EB</p>",
+            "value_2": "<p>1.33” 240*240 LCD</p>",
+            "value_3": "<p>D-Key</p>",
+            "value_4": "<p>Typical 10 Seconds</p>",
+            "value_5": "<p>M Key M.2(NVMe)<br/>B&M Key M.2(NVMe) </p>",
+            "value_6": "<p>Max 4TB</p>",
+            "value_7": "<p>2230/2242/2260/2280</p>",
+            "value_8": "<p>USB 3.2 Gen 2 (10Gbps)</p>",
+            "value_9": "<p>15W Auxiliary Power Supply</p>",
+            "value_10": "<p>DC 5V±0.25V⎓3A</p>",
+            "value_11": "<p>Minimum charge and discharge of capacitor 500,000 times</p>",
+            "value_12": "<p>Aluminium Alloy<br/>Tempered Glass</p>",
+            "value_13": "<p>Upgradable</p>",
+            "value_14": "<p>127*39*14mm</p>",
+            "value_15": "<p>95g</p>",
+            "value_16": "",
             "value_17": "",
             "value_18": "",
             "value_19": "",
@@ -509,8 +546,9 @@
       },
       "block_order": [
         "headings_CqrpVD",
-        "values_VpfiDL",
-        "values_UyNgki"
+        "values_UyNgki",
+        "values_YWyDaF",
+        "values_KTKffh"
       ],
       "name": "Feature Chart",
       "settings": {
@@ -566,11 +604,11 @@
     "main",
     "single_image_WRVykY",
     "single_image_Hq74Ff",
-    "single_image_Pt3qXg",
-    "single_image_WMfU9J",
+    "single_image_mqAPtK",
+    "single_image_ibGVBz",
     "media_with_swiper_cqnkq7",
+    "media_with_swiper_ERhdnm",
     "media_with_swiper_ge9dpr",
-    "media_with_swiper_QiKPpt",
     "feature_chart_Dr97jb",
     "feature_chart_iLHz6p",
     "related-products"

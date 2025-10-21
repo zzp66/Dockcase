@@ -3150,7 +3150,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 @media screen and (min-width: 700px) {
   .product-quick-add {
     border-radius: var(--rounded-sm);
-    background: rgb(var(--dialog-background));
+    background: #000;
     border-width: 1px;
     width: 35rem;
     padding: 1rem;
@@ -5548,6 +5548,11 @@ product-rerender {
   padding-block-start: var(--spacing-4);
   padding-block-end: var(--spacing-4);
   display: grid;
+}
+
+.feature-chart__table-row .feature-chart__value:first-child {
+  color: #fff;
+  font-weight: 600;
 }
 
 .feature-chart__toggle {
