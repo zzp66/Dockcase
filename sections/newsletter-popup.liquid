@@ -1,3 +1,15 @@
+<style>
+  .newsletter-drawer__content {
+    color: #000;
+  }
+  .newsletter-drawer__content p,
+  .newsletter-drawer__content input {
+    color: #000;
+  }
+  .newsletter-drawer__content input {
+    border: 1px solid #000;
+  }
+</style>
 {%- unless request.page_type == 'captcha' or section.settings.show_only_on_index and request.page_type != 'index' -%}
   {%- unless section.settings.show_only_for_visitors and customer -%}
     {%- assign posted_successfully = false -%}
@@ -9,7 +21,19 @@
       {%- endform -%}
     {%- endcapture -%}
 
-    <newsletter-popup id="newsletter-drawer" open-from="right" class="drawer newsletter-drawer" {% if section.settings.show_only_once %}only-once{% endif %} apparition-delay="{{ section.settings.apparition_delay }}" {% if posted_successfully %}open{% endif %} handle-section-events>
+    <newsletter-popup
+      id="newsletter-drawer"
+      open-from="right"
+      class="drawer newsletter-drawer"
+      {% if section.settings.show_only_once %}
+        only-once
+      {% endif %}
+      apparition-delay="{{ section.settings.apparition_delay }}"
+      {% if posted_successfully %}
+        open
+      {% endif %}
+      handle-section-events
+    >
       <button is="close-button" aria-label="{{ 'general.accessibility.close' | t | escape }}" class="sm-max:hidden">
         {%- render 'icon' with 'close', width: 19, height: 19 -%}
       </button>
@@ -17,7 +41,11 @@
       {%- if section.settings.image != blank -%}
         {%- capture sizes -%}min(calc(100vw - 16px), 445px){%- endcapture -%}
         {%- capture widths -%}{{ section.settings.image.width }}, {{ section.settings.image.width | times: 2 | at_most: section.settings.image.width }}{%- endcapture -%}
-        {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', widths: widths, sizes: sizes -}}
+        {{-
+          section.settings.image
+          | image_url: width: section.settings.image.width
+          | image_tag: loading: 'lazy', widths: widths, sizes: sizes
+        -}}
       {%- endif -%}
 
       <div class="newsletter-drawer__content v-stack gap-4 text-center">
@@ -44,10 +72,22 @@
                 <input type="hidden" name="contact[tags]" value="newsletter">
 
                 {%- assign label = 'blog.comments.email' | t -%}
-                {%- render 'input', type: 'email', name: 'contact[email]', label: label, value: customer.email, required: true, autocomplete: 'email' -%}
+                {%- render 'input',
+                  type: 'email',
+                  name: 'contact[email]',
+                  label: label,
+                  value: customer.email,
+                  required: true,
+                  autocomplete: 'email'
+                -%}
               </div>
 
-              {%- render 'button', content: section.settings.button_text, icon: 'picto-envelope', type: 'submit', size: 'xl' -%}
+              {%- render 'button',
+                content: section.settings.button_text,
+                icon: 'picto-envelope',
+                type: 'submit',
+                size: 'xl'
+              -%}
             {%- endif -%}
           {%- endform -%}
         </div>

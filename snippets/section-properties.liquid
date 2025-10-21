@@ -48,7 +48,7 @@
   {%- capture class -%}{{ class }} section-blends section-full {{ img-padding-bottom }}{%- endcapture -%}
 {%- else -%}
   {%- if full_width -%}
-    {%- capture class -%}{{ class }} section-full{%- endcapture -%}
+    {%- capture class -%}{{ class }} {{ img-padding-bottom }} section-full{%- endcapture -%}
   {%- else -%}
     {%- capture class -%}{{ class }} section-boxed{%- endcapture -%}
   {%- endif -%}

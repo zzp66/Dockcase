@@ -1,0 +1,148 @@
+{%- render 'section-spacing-collapsing' -%}
+<style>
+    .shopify-section--format-ssd-guide1 .section{
+        padding-block-start: 0;
+        padding-block-end: 0;
+    }
+  .format-ssd-guide1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    align-items: stretch;
+  }
+  .format-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px;
+    background: {{ section.settings.item_background_gradient }};
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .format-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .format-icon img {
+    max-width: 80px;
+    height: auto;
+  }
+  .format-icon p {
+    margin: 40px 0 0;
+    font-size: 3rem;
+    line-height: 3.25rem;
+    font-weight: 600;
+  }
+  .format-info{
+    margin-top: 30px;
+    width: 100%;
+  }
+  @media screen and (max-width: 767px) {
+    .format-ssd-guide1 {
+      margin-top: 25px;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+  }
+</style>
+<div {% render 'section-properties' %}>
+  <div class="section-stack">
+    <div class="format-ssd-guide1-content">
+      <div class="format-ssd-guide1">
+        <div class="format-item">
+          <div class="format-icon">
+            <img src="{{ section.settings.format_mac_icon | image_url: width: master }}" alt="">
+            <p>For Mac</p>
+          </div>
+          <div class="format-info">
+            {{ section.settings.format_mac_info }}
+          </div>
+        </div>
+        <div class="format-item">
+          <div class="format-icon">
+            <img src="{{ section.settings.format_ms_icon | image_url: width: master }}" alt="">
+            <p>For MicroSoft</p>
+          </div>
+          <div class="format-info">
+            {{ section.settings.format_ms_info }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Format SSD Guide 1",
+  "class": "shopify-section--format-ssd-guide1",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "format_mac_icon",
+      "label": "macOS 图标"
+    },
+    {
+      "type": "richtext",
+      "id": "format_mac_info",
+      "label": "macOS 说明文案"
+    },
+    {
+      "type": "image_picker",
+      "id": "format_ms_icon",
+      "label": "MicroSoft 图标"
+    },
+    {
+      "type": "richtext",
+      "id": "format_ms_info",
+      "label": "MicroSoft 说明文案"
+    },
+    {
+      "type": "color_background",
+      "id": "item_background_gradient",
+      "label": "Item块的背景色修改"
+    },
+    {
+      "type": "header",
+      "content": "以下为模板基础配置"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color"
+    },
+    {
+      "type": "color_background",
+      "id": "heading_gradient",
+      "label": "Heading gradient"
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Format SSD Guide 1",
+      "category": "Content"
+    }
+  ]
+}
+{% endschema %}

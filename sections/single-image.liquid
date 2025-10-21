@@ -9,6 +9,17 @@
   {% endcapture %}
 {% endif %}
 <style>
+  .single-image-wrapper{
+    position: relative;
+  }
+  .single-image-link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+  }
   .single-image-content img {
     max-width: 100%;
     height: auto;
@@ -24,7 +35,7 @@
   }
 </style>
 <div {% render 'section-properties' %}>
-  <div class="section-stack">
+  <div class="section-stack single-image-wrapper">
     <div class="single-image-content {{ section.id }} {{ radius }}">
       <picture>
         <source media="(max-width: 767px)" srcset="{{ section.settings.single_img_mb | image_url: width: master }}">
@@ -32,6 +43,9 @@
         <img src="{{ section.settings.single_img_pc | image_url: width: master }}">
       </picture>
     </div>
+    {% if section.settings.single_img_url != blank %}
+      <a href="{{ section.settings.single_img_url }}" class="single-image-link"></a>
+    {% endif %}
   </div>
 </div>
 {% schema %}
@@ -49,6 +63,12 @@
       "type": "image_picker",
       "id": "single_img_mb",
       "label": "移动端图片"
+    },
+    {
+      "type": "url",
+      "id": "single_img_url",
+      "label": "图片跳转链接",
+      "info": "如果不设置链接，点击图片不会跳转"
     },
     {
       "type": "checkbox",
