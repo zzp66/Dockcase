@@ -73,6 +73,12 @@
           {%- render block -%}
 
         {%- when 'icon_text' -%}
+          {% style %}
+            .info-icon-text-box{
+              background-color: {{ block.settings.icon_text_bg }};
+              color: {{ block.settings.icon_text_font_color }};
+            }
+          {% endstyle %}
             <div class="product-info__icon-text">
               <div class="info-icon-text-box">
                 <div class="info-icon-text">
