@@ -256,6 +256,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/3-10in1-01.png",
         "single_img_mb": "shopify://shop_images/3-10in1-01M_613170fa-eb6e-45ee-a60b-70e06ea89700.png",
+        "single_img_url": "",
         "enable_padding_bottom": true,
         "enable_img_radius": true,
         "full_width": true,
@@ -414,6 +415,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/4-SSD-Enclosure_01.png",
         "single_img_mb": "shopify://shop_images/4-SSD-Enclosure_01_05f06a79-d564-4b80-ac48-b6311dba53c6.png",
+        "single_img_url": "",
         "enable_padding_bottom": true,
         "enable_img_radius": true,
         "full_width": true,
@@ -573,6 +575,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/5-Chizha_01.png",
         "single_img_mb": "shopify://shop_images/5-Chizha_01_c1a02501-fd77-4119-8a69-3631052276e0.png",
+        "single_img_url": "",
         "enable_padding_bottom": true,
         "enable_img_radius": true,
         "full_width": true,
@@ -711,6 +714,7 @@
       "name": "Single Image",
       "settings": {
         "single_img_pc": "shopify://shop_images/6-team_01.png",
+        "single_img_url": "shopify://products/dockcase-1tb-pocket-portable-ssd",
         "enable_padding_bottom": true,
         "enable_img_radius": true,
         "full_width": true,

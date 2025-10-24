@@ -16,6 +16,55 @@
         "content_width": "80ch"
       }
     },
+    "contact_section_1_VGfTGB": {
+      "type": "contact-section-1",
+      "blocks": {
+        "topic_wa9abc": {
+          "type": "topic",
+          "settings": {
+            "topic_img": "shopify://shop_images/microsoft.png",
+            "topic_title": "General FAQs",
+            "topic_text": "Frequenyly asked questions about logistics, payments",
+            "topic_url": "",
+            "topic_btn": "Learn More"
+          }
+        },
+        "topic_MGAk9H": {
+          "type": "topic",
+          "settings": {
+            "topic_img": "shopify://shop_images/microsoft.png",
+            "topic_title": "General FAQs",
+            "topic_text": "Frequenyly asked questions about logistics, payments",
+            "topic_url": "",
+            "topic_btn": "Learn More"
+          }
+        },
+        "topic_tKUFtm": {
+          "type": "topic",
+          "settings": {
+            "topic_img": "shopify://shop_images/microsoft.png",
+            "topic_title": "General FAQs",
+            "topic_text": "Frequenyly asked questions about logistics, payments",
+            "topic_url": "",
+            "topic_btn": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "topic_wa9abc",
+        "topic_MGAk9H",
+        "topic_tKUFtm"
+      ],
+      "name": "Contact Section 1",
+      "settings": {
+        "title": "Common Topics",
+        "full_width": true,
+        "heading_color": "",
+        "heading_gradient": "",
+        "background": "",
+        "background_gradient": ""
+      }
+    },
     "text_with_icons_EAhArw": {
       "type": "text-with-icons",
       "blocks": {
@@ -100,6 +149,7 @@
   },
   "order": [
     "main",
+    "contact_section_1_VGfTGB",
     "text_with_icons_EAhArw",
     "contact"
   ]
