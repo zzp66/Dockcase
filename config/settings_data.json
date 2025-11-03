@@ -58,9 +58,17 @@
     "social_instagram": "https://www.instagram.com/dockcase.official",
     "social_youtube": "https://www.youtube.com/@dockcase",
     "social_tiktok": "https://www.tiktok.com/@dockcase.official",
+    "favicon": "shopify://shop_images/6e242926645994426132595fdc67ff0f.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "13768625480086291342": {
+        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Impact": {

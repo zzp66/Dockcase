@@ -22,25 +22,26 @@
         "topic_wa9abc": {
           "type": "topic",
           "settings": {
-            "topic_img": "shopify://shop_images/microsoft.png",
-            "topic_title": "General FAQs",
-            "topic_text": "Frequenyly asked questions about logistics, payments",
+            "topic_img": "shopify://shop_images/KS2.png",
+            "topic_title": "Kickstarter Backer",
+            "topic_text": "Please contact this email for assistance:   service@dockcase.com",
             "topic_url": "",
-            "topic_btn": "Learn More"
+            "topic_btn": ""
           }
         },
         "topic_MGAk9H": {
           "type": "topic",
           "settings": {
-            "topic_img": "shopify://shop_images/microsoft.png",
-            "topic_title": "General FAQs",
-            "topic_text": "Frequenyly asked questions about logistics, payments",
+            "topic_img": "shopify://shop_images/amazon2.png",
+            "topic_title": "Amazon Customer",
+            "topic_text": "Please contact this email for assistance: amazon@dockcase.com",
             "topic_url": "",
-            "topic_btn": "Learn More"
+            "topic_btn": ""
           }
         },
         "topic_tKUFtm": {
           "type": "topic",
+          "disabled": true,
           "settings": {
             "topic_img": "shopify://shop_images/microsoft.png",
             "topic_title": "General FAQs",
@@ -57,7 +58,7 @@
       ],
       "name": "Contact Section 1",
       "settings": {
-        "title": "Common Topics",
+        "title": "Business Contact",
         "full_width": true,
         "heading_color": "",
         "heading_gradient": "",
@@ -101,6 +102,7 @@
         "item_3iWAqj",
         "item_jPHmnq"
       ],
+      "disabled": true,
       "name": "Text with icons",
       "settings": {
         "full_width": true,

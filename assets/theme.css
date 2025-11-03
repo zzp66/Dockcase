@@ -1223,6 +1223,7 @@ scroll-carousel {
     font-size: var(--text-sm);
     padding-block-start: var(--spacing-1);
     padding-block-end: var(--spacing-1);
+    color: #000;
   }
 }
 
@@ -1261,7 +1262,7 @@ scroll-carousel {
   max-height: var(--drawer-content-max-height);
   border-radius: var(--rounded-sm);
   background: rgb(var(--dialog-background));
-  color: rgb(var(--text-color));
+  color: #000;
   flex-direction: column;
   display: flex;
   position: relative;
@@ -1706,6 +1707,10 @@ scroll-carousel {
 .form-control {
   text-align: start;
   position: relative;
+}
+.form-control option{
+  background: #555;
+  color: #fff;
 }
 
 .block-label {
@@ -2474,6 +2479,10 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   padding-block-end: var(--spacing-1);
 }
 
+.cart-drawer .quantity-input{
+  border-color: #555;
+}
+
 .quantity-input::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
@@ -3222,6 +3231,10 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   gap: var(--spacing-6);
   margin-block-start: 1rem;
   display: grid;
+  color: #000;
+}
+.quick-buy-drawer__info .text-subdued{
+  color: #000;
 }
 
 @media screen and (min-width: 700px) {
@@ -5026,6 +5039,10 @@ product-rerender {
   --drawer-content-max-height: none;
   height: 100%;
   top: 0;
+}
+
+.cart-drawer .text-subdued{
+  color: #000;
 }
 
 .cart-drawer::part(outside-close-button) {

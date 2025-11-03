@@ -36,6 +36,7 @@
         },
         "offer_FRefcP": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
@@ -89,7 +90,19 @@
             "icon_text_icon_2": "shopify://shop_images/guarantee0926_25e5c9f8-ee53-42a8-8d77-f9728448bb77.png",
             "icon_text_text_2": "30-Day Money Back Guarantee",
             "icon_text_icon_3": "shopify://shop_images/Warranty0926_a6f1a213-a5b5-4a52-9182-3ce074ac0672.png",
-            "icon_text_text_3": "12-month Warranty"
+            "icon_text_text_3": "12-month Warranty",
+            "icon_text_bg": "#000000",
+            "icon_text_font_color": "#ffffff"
+          }
+        },
+        "associated_products_teJdcW": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Buy it with",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
           }
         },
         "collapsible_text_wmMA9X": {
@@ -148,6 +161,7 @@
         "quantity_selector",
         "buy_buttons",
         "icon_text_xX77ta",
+        "associated_products_teJdcW",
         "collapsible_text_wmMA9X",
         "collapsible_text_ik76Hk",
         "collapsible_text_JKngMc",
@@ -177,6 +191,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/A__PC_01_3fad86fc-bc2c-4252-b0ba-c4cb4e7d9d00.png",
         "single_img_mb": "shopify://shop_images/A__M_01_ec7564e7-c09c-4ab9-aac1-6df87606b006.png",
+        "single_img_url": "",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,
@@ -190,6 +205,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/A__PC_02_6e1bc87a-1b2b-4b1a-a773-eb067e600544.png",
         "single_img_mb": "shopify://shop_images/A__M_02_7087c15b-35ca-48ce-9183-adb68e35f2fc.png",
+        "single_img_url": "",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,
@@ -203,19 +219,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/A__PC_03_5ac29fd1-1d5c-4f19-927b-5155963faa76.png",
         "single_img_mb": "shopify://shop_images/A__M_03_b534ae0b-8e08-4fce-ae57-a80f836b5043.png",
-        "enable_padding_bottom": false,
-        "enable_img_radius": false,
-        "full_width": true,
-        "background": "#000000",
-        "background_gradient": ""
-      }
-    },
-    "single_image_ibGVBz": {
-      "type": "single-image",
-      "name": "Single Image",
-      "settings": {
-        "single_img_pc": "shopify://shop_images/A__PC_06_83a24a30-f2f2-4cc9-9b9c-bcc8f26ad7d6.png",
-        "single_img_mb": "shopify://shop_images/A__M_06_7c046525-742e-4170-8002-44e22972dc16.png",
+        "single_img_url": "",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,
@@ -318,9 +322,17 @@
         "item_Wj7zDq": {
           "type": "item",
           "settings": {
+            "item_img_pc": "shopify://shop_images/A__PC_06_d98e85da-8b93-44ad-9493-2ba5f6bacb2e.png",
+            "item_img_mb": "shopify://shop_images/A__M_06_863b5342-bb6b-4842-91dd-29cb6cc1e590.png",
+            "item_text": "Real-time Monitoring"
+          }
+        },
+        "item_9Ef6Dy": {
+          "type": "item",
+          "settings": {
             "item_img_pc": "shopify://shop_images/A__PC_06-2_3e7ac8d8-2da5-4da9-8825-bde72f3a1efc.png",
             "item_img_mb": "shopify://shop_images/A__M_06-2_3395efaa-f070-4090-bb69-9ecda05143f4.png",
-            "item_text": "Dual Cooling"
+            "item_text": "Dual Heat Dissipation"
           }
         },
         "item_g7diDK": {
@@ -334,6 +346,7 @@
       },
       "block_order": [
         "item_Wj7zDq",
+        "item_9Ef6Dy",
         "item_g7diDK"
       ],
       "name": "Media With Swiper",
@@ -459,25 +472,82 @@
             "heading_20": ""
           }
         },
-        "values_UyNgki": {
+        "values_LUp7PL": {
           "type": "values",
           "settings": {
-            "product": "dockcase-smart-magsafe-m-2-nvme-ssd-enclosure-100w-pd",
-            "value_1": "<p>DSWC1R-3B</p>",
-            "value_2": "<p>1.54\" 240 x 240 LCD</p>",
+            "product": "dockcase-chizha-m-2-nvme-ssd-enclosure",
+            "value_1": "<p>DSWC1C-CB</p>",
+            "value_2": "<p>1.33” 240*240 LCD</p>",
             "value_3": "<p>D-Key</p>",
-            "value_4": "<p>Typical 3 Seconds</p>",
-            "value_5": "<p>M Key M.2 (NVMe/PCIe)<br/>B&M Key M.2(NVMe/PCIe) </p>",
-            "value_6": "<p>Max 2TB</p>",
-            "value_7": "<p>2230/2242</p>",
+            "value_4": "<p>Typical 10 Seconds</p>",
+            "value_5": "<p>M Key M.2(NVMe)<br/>B&M Key M.2(NVMe) </p>",
+            "value_6": "<p>Max 4TB</p>",
+            "value_7": "<p>2230/2242/2260/2280</p>",
             "value_8": "<p>USB 3.2 Gen 2 (10Gbps)</p>",
-            "value_9": "<p>100 PD 3.0</p>",
+            "value_9": "<p>15W Auxiliary Power Supply</p>",
             "value_10": "<p>DC 5V±0.25V⎓3A</p>",
             "value_11": "<p>Minimum charge and discharge of capacitor 500,000 times</p>",
             "value_12": "<p>Aluminium Alloy<br/>Tempered Glass</p>",
             "value_13": "<p>Upgradable</p>",
-            "value_14": "<p>59.3*59.3*14.5mm</p>",
-            "value_15": "<p>53g</p>",
+            "value_14": "<p>127*39*14mm</p>",
+            "value_15": "<p>95g</p>",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_EzfEnB": {
+          "type": "values",
+          "settings": {
+            "product": "dockcase-chizha-pocket-smart-2230-m-2-nvme-ssd-enclosure",
+            "value_1": "<p>DCWC1M-CB                                                                                                                                                                                                           </p>",
+            "value_2": "<p>1.33\" 240*240 LCD </p>",
+            "value_3": "<p>D-Key</p>",
+            "value_4": "<p>Typical 3 Seconds</p>",
+            "value_5": "<p>M Key M.2 (NVMe/PCIe)<br/>B&M Key M.2(NVMe/PCIe) </p>",
+            "value_6": "<p>Max 2TB</p>",
+            "value_7": "<p>2230</p>",
+            "value_8": "<p>USB 3.2 Gen 2 (10Gbps)</p>",
+            "value_9": "<p>/</p>",
+            "value_10": "<p>DC 5V±0.25V⎓3A</p>",
+            "value_11": "<p>Minimum charge and discharge of capacitor 500,000 times</p>",
+            "value_12": "<p>Aluminium Alloy<br/>Tempered Glass</p>",
+            "value_13": "<p>Upgradable</p>",
+            "value_14": "<p>43.5*43.5*15.0mm</p>",
+            "value_15": "<p>45g</p>",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_KTKffh": {
+          "type": "values",
+          "disabled": true,
+          "settings": {
+            "product": "dockcase-smart-m-2-nvme-ssd-enclosure-explorer-edition",
+            "value_1": "<p>DSWC1C-EB</p>",
+            "value_2": "<p>1.33” 240*240 LCD</p>",
+            "value_3": "<p>D-Key</p>",
+            "value_4": "<p>Typical 10 Seconds</p>",
+            "value_5": "<p>M Key M.2(NVMe)<br/>B&M Key M.2(NVMe) </p>",
+            "value_6": "<p>Max 4TB</p>",
+            "value_7": "<p>2230/2242/2260/2280</p>",
+            "value_8": "<p>USB 3.2 Gen 2 (10Gbps)</p>",
+            "value_9": "<p>15W Auxiliary Power Supply</p>",
+            "value_10": "<p>DC 5V±0.25V⎓3A</p>",
+            "value_11": "<p>Minimum charge and discharge of capacitor 500,000 times</p>",
+            "value_12": "<p>Aluminium Alloy<br/>Tempered Glass</p>",
+            "value_13": "<p>Upgradable</p>",
+            "value_14": "<p>127*39*14mm</p>",
+            "value_15": "<p>95g</p>",
             "value_16": "",
             "value_17": "",
             "value_18": "",
@@ -489,6 +559,7 @@
         },
         "values_YWyDaF": {
           "type": "values",
+          "disabled": true,
           "settings": {
             "product": "dockcase-pocket-smart-2230-m-2-nvme-ssd-enclosure-matte-black",
             "value_1": "<p>DCWC1M-3B</p>",
@@ -515,25 +586,26 @@
             "view_button_text_color": ""
           }
         },
-        "values_KTKffh": {
+        "values_UyNgki": {
           "type": "values",
+          "disabled": true,
           "settings": {
-            "product": "dockcase-smart-m-2-nvme-ssd-enclosure-explorer-edition",
-            "value_1": "<p>DSWC1C-EB</p>",
-            "value_2": "<p>1.33” 240*240 LCD</p>",
+            "product": "dockcase-smart-magsafe-m-2-nvme-ssd-enclosure-100w-pd",
+            "value_1": "<p>DSWC1R-3B</p>",
+            "value_2": "<p>1.54\" 240 x 240 LCD</p>",
             "value_3": "<p>D-Key</p>",
-            "value_4": "<p>Typical 10 Seconds</p>",
-            "value_5": "<p>M Key M.2(NVMe)<br/>B&M Key M.2(NVMe) </p>",
-            "value_6": "<p>Max 4TB</p>",
-            "value_7": "<p>2230/2242/2260/2280</p>",
+            "value_4": "<p>Typical 3 Seconds</p>",
+            "value_5": "<p>M Key M.2 (NVMe/PCIe)<br/>B&M Key M.2(NVMe/PCIe) </p>",
+            "value_6": "<p>Max 2TB</p>",
+            "value_7": "<p>2230/2242</p>",
             "value_8": "<p>USB 3.2 Gen 2 (10Gbps)</p>",
-            "value_9": "<p>15W Auxiliary Power Supply</p>",
+            "value_9": "<p>100 PD 3.0</p>",
             "value_10": "<p>DC 5V±0.25V⎓3A</p>",
             "value_11": "<p>Minimum charge and discharge of capacitor 500,000 times</p>",
             "value_12": "<p>Aluminium Alloy<br/>Tempered Glass</p>",
             "value_13": "<p>Upgradable</p>",
-            "value_14": "<p>127*39*14mm</p>",
-            "value_15": "<p>95g</p>",
+            "value_14": "<p>59.3*59.3*14.5mm</p>",
+            "value_15": "<p>53g</p>",
             "value_16": "",
             "value_17": "",
             "value_18": "",
@@ -546,9 +618,11 @@
       },
       "block_order": [
         "headings_CqrpVD",
-        "values_UyNgki",
+        "values_LUp7PL",
+        "values_EzfEnB",
+        "values_KTKffh",
         "values_YWyDaF",
-        "values_KTKffh"
+        "values_UyNgki"
       ],
       "name": "Feature Chart",
       "settings": {
@@ -605,7 +679,6 @@
     "single_image_WRVykY",
     "single_image_Hq74Ff",
     "single_image_mqAPtK",
-    "single_image_ibGVBz",
     "media_with_swiper_cqnkq7",
     "media_with_swiper_ERhdnm",
     "media_with_swiper_ge9dpr",

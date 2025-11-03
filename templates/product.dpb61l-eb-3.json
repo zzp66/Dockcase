@@ -36,6 +36,7 @@
         },
         "offer_FRefcP": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
@@ -89,7 +90,19 @@
             "icon_text_icon_2": "shopify://shop_images/guarantee0926_25e5c9f8-ee53-42a8-8d77-f9728448bb77.png",
             "icon_text_text_2": "30-Day Money Back Guarantee",
             "icon_text_icon_3": "shopify://shop_images/Warranty0926_a6f1a213-a5b5-4a52-9182-3ce074ac0672.png",
-            "icon_text_text_3": "12-month Warranty"
+            "icon_text_text_3": "12-month Warranty",
+            "icon_text_bg": "#000000",
+            "icon_text_font_color": "#ffffff"
+          }
+        },
+        "associated_products_t8UTxc": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Buy it with",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
           }
         },
         "collapsible_text_wmMA9X": {
@@ -148,6 +161,7 @@
         "quantity_selector",
         "buy_buttons",
         "icon_text_xX77ta",
+        "associated_products_t8UTxc",
         "collapsible_text_wmMA9X",
         "collapsible_text_ik76Hk",
         "collapsible_text_JKngMc",
@@ -177,6 +191,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/A__PC_01_d9f11724-a3cd-4f0c-b7cd-fee55ee12ad1.png",
         "single_img_mb": "shopify://shop_images/A__M_01_d202cb9e-cfe0-480e-9e44-e3bc6c612ed9.png",
+        "single_img_url": "",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,
@@ -190,6 +205,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/A__PC_02_f98a0cfc-cfc3-4d0d-a2fa-b49a880ac6af.png",
         "single_img_mb": "shopify://shop_images/A__M_02_7d40b7a8-48cd-4f4d-bada-7fffc59798d8.png",
+        "single_img_url": "",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,
@@ -203,6 +219,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/A__PC_03_736a1eba-5604-4d74-a014-3faf74a9d073.png",
         "single_img_mb": "shopify://shop_images/A__M_03_d2fb1508-4aa6-48f9-8544-f6f8952d6cc9.png",
+        "single_img_url": "",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,
@@ -265,6 +282,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/A__PC_05_9102441b-21ee-4cb4-9416-727cae68b0a1.png",
         "single_img_mb": "shopify://shop_images/A__M_05_be7d6e18-1f14-4273-b8a5-4fbac6ef0d10.png",
+        "single_img_url": "",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,
@@ -336,7 +354,7 @@
           "settings": {
             "item_img_pc": "shopify://shop_images/A__PC_07-3_56703437-aa18-4635-b1d7-7f4efad17950.png",
             "item_img_mb": "shopify://shop_images/A__M_07-3_3fb41069-92e7-4911-a79a-4cdb54f46f54.png",
-            "item_text": "Enhance work efficiency"
+            "item_text": "Enhance Work Efficiency"
           }
         }
       },

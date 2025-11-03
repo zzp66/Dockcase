@@ -36,6 +36,7 @@
         },
         "offer_FRefcP": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
@@ -89,7 +90,19 @@
             "icon_text_icon_2": "shopify://shop_images/guarantee0926_25e5c9f8-ee53-42a8-8d77-f9728448bb77.png",
             "icon_text_text_2": "30-Day Money Back Guarantee",
             "icon_text_icon_3": "shopify://shop_images/Warranty0926_a6f1a213-a5b5-4a52-9182-3ce074ac0672.png",
-            "icon_text_text_3": "12-month Warranty"
+            "icon_text_text_3": "12-month Warranty",
+            "icon_text_bg": "#000000",
+            "icon_text_font_color": "#ffffff"
+          }
+        },
+        "associated_products_7DXcHH": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Buy it with",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
           }
         },
         "collapsible_text_wmMA9X": {
@@ -148,6 +161,7 @@
         "quantity_selector",
         "buy_buttons",
         "icon_text_xX77ta",
+        "associated_products_7DXcHH",
         "collapsible_text_wmMA9X",
         "collapsible_text_ik76Hk",
         "collapsible_text_JKngMc",
@@ -177,6 +191,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/A__PC_01_d3934c62-6d0b-497e-84c6-4a01c7e361ff.png",
         "single_img_mb": "shopify://shop_images/A__M_01_dbe43be8-3442-4cb3-b09c-bffbccac61cf.png",
+        "single_img_url": "",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,
@@ -190,6 +205,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/A__PC_02_ae86c564-705c-4cd9-93f3-63e9e7bf56db.png",
         "single_img_mb": "shopify://shop_images/A__M_02_fb2d63af-d591-4a6a-bd05-5079dc2dfc4a.png",
+        "single_img_url": "",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,
@@ -203,6 +219,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/A__PC_03_8e8ed9fd-0a93-4dcb-b1b6-869be81c713b.png",
         "single_img_mb": "shopify://shop_images/A__M_03_8a62276e-6b02-41bd-8358-5281e5384d3b.png",
+        "single_img_url": "",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,
@@ -216,6 +233,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/A__PC_04_eefd3cc9-8625-4236-ab4a-14237db69075.png",
         "single_img_mb": "shopify://shop_images/A__M_04_0c1d1eb5-989e-4c34-9117-37659894db98.png",
+        "single_img_url": "",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,

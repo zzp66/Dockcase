@@ -89,7 +89,19 @@
             "icon_text_icon_2": "shopify://shop_images/guarantee0926_25e5c9f8-ee53-42a8-8d77-f9728448bb77.png",
             "icon_text_text_2": "30-Day Money Back Guarantee",
             "icon_text_icon_3": "shopify://shop_images/Warranty0926_a6f1a213-a5b5-4a52-9182-3ce074ac0672.png",
-            "icon_text_text_3": "12-month Warranty"
+            "icon_text_text_3": "12-month Warranty",
+            "icon_text_bg": "#000000",
+            "icon_text_font_color": "#ffffff"
+          }
+        },
+        "associated_products_UCUpAD": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Buy it with",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
           }
         },
         "collapsible_text_wmMA9X": {
@@ -148,6 +160,7 @@
         "quantity_selector",
         "buy_buttons",
         "icon_text_xX77ta",
+        "associated_products_UCUpAD",
         "collapsible_text_wmMA9X",
         "collapsible_text_ik76Hk",
         "collapsible_text_JKngMc",
@@ -177,6 +190,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/A__PC_01_f67d9f73-4806-4385-97ac-c28a11991d5c.png",
         "single_img_mb": "shopify://shop_images/A__M_01_a5648dee-548f-4903-a749-ea3bcb99fa08.png",
+        "single_img_url": "",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,
@@ -190,6 +204,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/A__PC_02_1a90252a-3cbb-4132-a239-ed6b722e1c4f.png",
         "single_img_mb": "shopify://shop_images/A__M_02_128fe61f-51b9-44ba-9270-e9ad2eed0ac4.png",
+        "single_img_url": "",
         "enable_padding_bottom": false,
         "enable_img_radius": false,
         "full_width": true,
@@ -205,7 +220,7 @@
           "settings": {
             "item_img_pc": "shopify://shop_images/A__PC_03_9f259a74-63b2-46a0-914b-f213c97e9d48.png",
             "item_img_mb": "shopify://shop_images/A__M_03_bb52866b-9626-4b38-ac06-1ff258cf9b17.png",
-            "item_text": "Power Loss Protect"
+            "item_text": "Power Loss Protection"
           }
         },
         "item_FDbKUj": {
@@ -234,6 +249,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/A__PC_05_f0a87a74-fd10-45b8-a57a-fdbab2e90768.png",
         "single_img_mb": "shopify://shop_images/A__M_05_8ec080b7-77fc-4b06-bb45-948c288b14ce.png",
+        "single_img_url": "",
         "enable_padding_bottom": true,
         "enable_img_radius": true,
         "full_width": true,
@@ -247,6 +263,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/A__PC_06_198756d3-a7a9-4438-8f57-11bdb86c4c5d.png",
         "single_img_mb": "shopify://shop_images/A__M_06_6ec82c1d-643e-4fe3-8647-5b32e7f4c954.png",
+        "single_img_url": "",
         "enable_padding_bottom": true,
         "enable_img_radius": true,
         "full_width": true,
@@ -260,6 +277,7 @@
       "settings": {
         "single_img_pc": "shopify://shop_images/A__PC_07_99080cc7-9cfb-4cf9-b719-711a1bf19338.png",
         "single_img_mb": "shopify://shop_images/A__M_07_334dfde6-f6f7-47c7-b36d-f949e7d03f33.png",
+        "single_img_url": "",
         "enable_padding_bottom": true,
         "enable_img_radius": true,
         "full_width": true,
@@ -278,7 +296,7 @@
             "heading_3": "Control",
             "heading_4": "Power Loss Protection",
             "heading_5": "Supported SSD Type",
-            "heading_6": "Supported SSD Capacity",
+            "heading_6": "SSD Capacity",
             "heading_7": "Supported SSD Length",
             "heading_8": "Data Port",
             "heading_9": "Power Port",
@@ -299,21 +317,21 @@
           "type": "values",
           "settings": {
             "product": "",
-            "value_1": "<p>DSWC1R-3B</p>",
-            "value_2": "<p>1.54\" 240×240 LCD</p>",
+            "value_1": "<p>DSWC1M-3B_1T</p>",
+            "value_2": "<p>1.33\" 240*240 LCD</p>",
             "value_3": "<p>D-Key</p>",
             "value_4": "<p>Typical 3 Seconds<br/></p>",
             "value_5": "<p>M Key M.2 (NVMe/PCIe)<br/>B&M Key M.2(NVMe/PCIe)</p>",
-            "value_6": "<p>Max 2TB</p>",
-            "value_7": "<p>2230/2242</p>",
+            "value_6": "<p>1TB</p>",
+            "value_7": "<p>2230</p>",
             "value_8": "<p>USB 3.2 Gen 2 (10Gbps) </p>",
-            "value_9": "<p>100 PD 3.0</p>",
+            "value_9": "<p>/</p>",
             "value_10": "<p>DC 5V±0.25V⎓3A </p>",
             "value_11": "<p>Minimum charge and discharge of capacitor 500,000 times </p>",
             "value_12": "<p>Aluminium Alloy<br/>Tempered Glass</p>",
             "value_13": "<p>Upgradable</p>",
-            "value_14": "<p>59.3*59.3*14.5mm</p>",
-            "value_15": "<p>53g</p>",
+            "value_14": "<p>43.5*43.5*15.0mm</p>",
+            "value_15": "<p>45g</p>",
             "value_16": "",
             "value_17": "",
             "value_18": "",
@@ -387,21 +405,21 @@
           "type": "values",
           "settings": {
             "product": "dockcase-1tb-pocket-portable-ssd",
-            "value_1": "<p>DSWC1R-3B</p>",
-            "value_2": "<p>1.54\" 240 x 240 LCD</p>",
+            "value_1": "<p>DSWC1M-3B_1T</p>",
+            "value_2": "<p>1.33\" 240*240 LCD</p>",
             "value_3": "<p>D-Key</p>",
             "value_4": "<p>Typical 3 Seconds</p>",
             "value_5": "<p>M Key M.2 (NVMe/PCIe)<br/>B&M Key M.2(NVMe/PCIe) </p>",
-            "value_6": "<p>Max 2TB</p>",
-            "value_7": "<p>2230/2242</p>",
+            "value_6": "<p>Built-in 1TB SSD</p>",
+            "value_7": "<p>2230</p>",
             "value_8": "<p>USB 3.2 Gen 2 (10Gbps)</p>",
-            "value_9": "<p>100 PD 3.0</p>",
+            "value_9": "<p>/</p>",
             "value_10": "<p>DC 5V±0.25V⎓3A</p>",
             "value_11": "<p>Minimum charge and discharge of capacitor 500,000 times</p>",
             "value_12": "<p>Aluminium Alloy<br/>Tempered Glass</p>",
             "value_13": "<p>Upgradable</p>",
-            "value_14": "<p>59.3*59.3*14.5mm</p>",
-            "value_15": "<p>53g</p>",
+            "value_14": "<p>43.5*43.5*15.0mm</p>",
+            "value_15": "<p>45g</p>",
             "value_16": "",
             "value_17": "",
             "value_18": "",
@@ -439,8 +457,37 @@
             "view_button_text_color": ""
           }
         },
+        "values_84Ja3k": {
+          "type": "values",
+          "settings": {
+            "product": "dockcase-smart-magsafe-m-2-nvme-ssd-enclosure-100w-pd",
+            "value_1": "<p>DSWC1R-3B</p>",
+            "value_2": "<p>1.54\" 240×240 LCD</p>",
+            "value_3": "<p>D-Key</p>",
+            "value_4": "<p>Typical 3 Seconds </p>",
+            "value_5": "<p>M Key M.2 (NVMe/PCIe)<br/>B&M Key M.2(NVMe/PCIe) </p>",
+            "value_6": "<p>Max 2TB</p>",
+            "value_7": "<p>2230/2242 </p>",
+            "value_8": "<p>USB 3.2 Gen 2 (10Gbps) </p>",
+            "value_9": "<p>100 PD 3.0</p>",
+            "value_10": "<p>DC 5V±0.25V⎓3A </p>",
+            "value_11": "<p>Minimum charge and discharge of capacitor 500,000 times </p>",
+            "value_12": "<p>Aluminium Alloy<br/>Tempered Glass</p>",
+            "value_13": "<p>Upgradable</p>",
+            "value_14": "<p>59.3*59.3*14.5mm</p>",
+            "value_15": "<p>53g</p>",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
         "values_KTKffh": {
           "type": "values",
+          "disabled": true,
           "settings": {
             "product": "dockcase-smart-m-2-nvme-ssd-enclosure-explorer-edition",
             "value_1": "<p>DSWC1C-EB</p>",
@@ -472,6 +519,7 @@
         "headings_CqrpVD",
         "values_UyNgki",
         "values_YWyDaF",
+        "values_84Ja3k",
         "values_KTKffh"
       ],
       "name": "Feature Chart",
@@ -505,7 +553,12 @@
       "type": "related-products",
       "settings": {
         "recommendations_count": 4,
-        "products": [],
+        "products": [
+          "dockcase-pocket-smart-2230-m-2-nvme-ssd-enclosure-grey",
+          "dockcase-smart-magsafe-m-2-nvme-ssd-enclosure-100w-pd",
+          "dockcase-chizha-pocket-smart-2230-m-2-nvme-ssd-enclosure",
+          "dockcase-pocket-smart-2230-m-2-nvme-ssd-enclosure-matte-black"
+        ],
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
