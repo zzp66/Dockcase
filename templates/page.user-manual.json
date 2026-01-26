@@ -167,15 +167,6 @@
     "user_manual_download_4wA4Fa": {
       "type": "user-manual-download",
       "blocks": {
-        "manual_bNzBUX": {
-          "type": "manual",
-          "settings": {
-            "manual_url": "https://cdn.shopify.com/s/files/1/0827/1462/4312/files/2230Enclosure_DSWC1M-CB_manual.pdf?v=1760507942",
-            "manual_img": "shopify://shop_images/B1_01_01b36a2d-3615-47a4-9a98-f4adcf9a39f3.png",
-            "manual_text": "DSWC1M-CB",
-            "manual_text_sku": "Dockcase Chizha Pocket Smart 2230 M.2 NVMe SSD Enclosure"
-          }
-        },
         "manual_QBbDDe": {
           "type": "manual",
           "settings": {
@@ -184,11 +175,20 @@
             "manual_text": "DSWC1C-CB",
             "manual_text_sku": "Dockcase Chizha M.2 NVMe SSD Enclosure"
           }
+        },
+        "manual_bNzBUX": {
+          "type": "manual",
+          "settings": {
+            "manual_url": "https://cdn.shopify.com/s/files/1/0827/1462/4312/files/2230Enclosure_DSWC1M-CB_manual.pdf?v=1760507942",
+            "manual_img": "shopify://shop_images/B1_01_01b36a2d-3615-47a4-9a98-f4adcf9a39f3.png",
+            "manual_text": "DSWC1M-CB",
+            "manual_text_sku": "Dockcase Chizha Pocket Smart 2230 M.2 NVMe SSD Enclosure"
+          }
         }
       },
       "block_order": [
-        "manual_bNzBUX",
-        "manual_QBbDDe"
+        "manual_QBbDDe",
+        "manual_bNzBUX"
       ],
       "name": "User Manual Download",
       "settings": {

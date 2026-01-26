@@ -33,11 +33,49 @@
           "settings": {
             "content": "<p>Please contact support@dockcase.com for the latest firmware, provide your product model and write or take a photo of the REV number.</p>"
           }
+        },
+        "heading_9zExyQ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Firmware Update Notice",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_PPycGC": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Thank you for choosing DOCKCASE. Before proceeding with a firmware update, please carefully review the following important notes:</p><p>The firmware pre-installed on your product has been fully tested and verified to ensure optimal stability and broad compatibility.</p><p>If you are not experiencing any specific functional or compatibility issues, we do not recommend upgrading the firmware.</p><p>In case of feature enhancements or necessary updates, DOCKCASE will release official notifications as soon as they become available. For the latest information, please contact our support team at support@dockcase.com.<br/><br/></p>"
+          }
+        },
+        "heading_LpFJ6h": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Firmware Update Guide",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_rJ3RPg": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Step 1:  Find The \"About Me\" Page</p><p>Long press the button on your product and hold for 3 seconds until \"About Me\" appears at the bottom of the screen, then release it to enter.<br/><br/></p>"
+          }
         }
       },
       "block_order": [
         "heading_rALLHF",
-        "richtext_AeTx8E"
+        "richtext_AeTx8E",
+        "heading_9zExyQ",
+        "richtext_PPycGC",
+        "heading_LpFJ6h",
+        "richtext_rJ3RPg"
       ],
       "name": "Rich text",
       "settings": {
@@ -47,6 +85,28 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "media_with_swiper_fBnxmB": {
+      "type": "media-with-swiper",
+      "blocks": {
+        "item_wtHXVN": {
+          "type": "item",
+          "settings": {
+            "item_img_pc": "shopify://shop_images/1280X1280.jpg",
+            "item_text": "Step 2:  Identify Your Dockcase Details  Below is an example of the \"About Me\" page.   "
+          }
+        }
+      },
+      "block_order": [
+        "item_wtHXVN"
+      ],
+      "disabled": true,
+      "name": "Media With Swiper",
+      "settings": {
+        "full_width": true,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "text_with_icons_Bx8JA6": {
@@ -185,6 +245,7 @@
   "order": [
     "main",
     "rich_text_4Fca7t",
+    "media_with_swiper_fBnxmB",
     "text_with_icons_Bx8JA6",
     "1762107122a2fd2592",
     "media_with_text_eDQjdq"

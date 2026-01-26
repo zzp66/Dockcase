@@ -11,8 +11,49 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "content_width": "80ch"
+      }
+    },
+    "rich_text_G7AzPN": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_8Kb7LE": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_EPTNEV": {
+          "type": "heading",
+          "settings": {
+            "text": "Format SSD Guide",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_ckaUKa": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>When you add a new disk to your device, the disk isn't immediately available. First, you need to initialize the disk so it's ready for use. After you initialize the disk, you can format it and store files on the disk.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_8Kb7LE",
+        "heading_EPTNEV",
+        "richtext_ckaUKa"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "format_ssd_guide_1_bawTNG": {
@@ -20,7 +61,7 @@
       "name": "Format SSD Guide 1",
       "settings": {
         "format_mac_icon": "shopify://shop_images/apple.png",
-        "format_mac_info": "<p>When you add a new disk to your device, the disk isn't immediately available. First, you need to initialize the disk so it's ready for use. After you initialize the disk, you can format it and store files on the disk.</p><p><strong>For macOS</strong></p><p><a href=\"https://support.apple.com/en-hk/guide/disk-utility/dskutl14079/mac\" target=\"_blank\" title=\"https://support.apple.com/en-hk/guide/disk-utility/dskutl14079/mac\">English</a></p><p><a href=\"https://support.apple.com/zh-cn/guide/disk-utility/dskutl14079/mac\" target=\"_blank\" title=\"https://support.apple.com/zh-cn/guide/disk-utility/dskutl14079/mac\">中文简体</a></p>",
+        "format_mac_info": "<p><strong>For macOS</strong></p><p><a href=\"https://support.apple.com/en-hk/guide/disk-utility/dskutl14079/mac\" target=\"_blank\" title=\"https://support.apple.com/en-hk/guide/disk-utility/dskutl14079/mac\">English</a></p><p><a href=\"https://support.apple.com/zh-cn/guide/disk-utility/dskutl14079/mac\" target=\"_blank\" title=\"https://support.apple.com/zh-cn/guide/disk-utility/dskutl14079/mac\">中文简体</a></p>",
         "format_ms_icon": "shopify://shop_images/microsoft.png",
         "format_ms_info": "<p><strong>For Windows </strong></p><p><a href=\"https://docs.microsoft.com/en-us/windows-server/storage/disk-management/initialize-new-disks\">English </a></p><p><a href=\"https://docs.microsoft.com/zh-cn/windows-server/storage/disk-management/initialize-new-disks\">中文简体</a></p>",
         "item_background_gradient": "linear-gradient(0deg, rgba(26, 26, 26, 1), rgba(26, 26, 26, 1) 97%)",
@@ -44,6 +85,7 @@
   },
   "order": [
     "main",
+    "rich_text_G7AzPN",
     "format_ssd_guide_1_bawTNG",
     "user_manual_download_iLePxX"
   ]

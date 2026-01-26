@@ -220,8 +220,8 @@
           "type": "quote",
           "settings": {
             "logo_width": 100,
-            "author": "Digital Trends",
-            "content": "A cool and practical investment.",
+            "author": "-Digital Trends",
+            "content": "\"A cool and practical investment.\"",
             "show_rating": false,
             "rating": 4
           }
@@ -230,8 +230,8 @@
           "type": "quote",
           "settings": {
             "logo_width": 100,
-            "author": "PC Gamer",
-            "content": "One of the funkiest SSD enclosures I've had to play with.",
+            "author": "-PC Gamer",
+            "content": "\"One of the funkiest SSD enclosures I've had to play with.\"",
             "show_rating": false,
             "rating": 4
           }
@@ -240,8 +240,8 @@
           "type": "quote",
           "settings": {
             "logo_width": 100,
-            "author": "Notebookcheck",
-            "content": "A sleek SSD enclosure with a big brain.",
+            "author": "-Notebookcheck",
+            "content": "\"A sleek SSD enclosure with a big brain.\"",
             "show_rating": false,
             "rating": 4
           }

@@ -12,6 +12,28 @@
     "section-1": {
       "type": "slideshow",
       "blocks": {
+        "image_b8cwLB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner-1.jpg",
+            "mobile_image": "shopify://shop_images/banner-M-1.jpg",
+            "content_max_width": 640,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "Transform Your Selfies with 48MP & 4K Clarity | Expand Your Storage to 2TB Instantly",
+            "title": "World's 1st Selfie Case for iPhone 17 Pro Max",
+            "heading_tag": "h2",
+            "button_text": "Coming Soon on Kickstarter",
+            "button_link": "https://www.selfixcase.com/",
+            "text_color": "#000000",
+            "button_background": "#1a1a1a",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "block-1": {
           "type": "image",
           "settings": {
@@ -24,7 +46,7 @@
             "title": "Chizha Mount Ling Dock For Steam Dock",
             "heading_tag": "h2",
             "button_text": "Learn More",
-            "button_link": "https://www.kickstarter.com/projects/dockcaseexplorerepro/chizha-mount-ling-dock-where-legends-ascend?ref=316cnc&token=60fecb8c",
+            "button_link": "shopify://products/dockcase-chizha-mount-ling-dock-for-steam-deck",
             "text_color": "#ffffff",
             "button_background": "#00aad1",
             "button_text_color": "#000000",
@@ -80,6 +102,7 @@
         }
       },
       "block_order": [
+        "image_b8cwLB",
         "block-1",
         "image_ikBBnt",
         "image_KbnJwi"
