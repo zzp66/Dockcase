@@ -12,35 +12,13 @@
     "section-1": {
       "type": "slideshow",
       "blocks": {
-        "image_b8cwLB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/banner-1.jpg",
-            "mobile_image": "shopify://shop_images/banner-M-1.jpg",
-            "content_max_width": 640,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "Transform Your Selfies with 48MP & 4K Clarity | Expand Your Storage to 2TB Instantly",
-            "title": "World's 1st Selfie Case for iPhone 17 Pro Max",
-            "heading_tag": "h2",
-            "button_text": "Coming Soon on Kickstarter",
-            "button_link": "https://www.selfixcase.com/",
-            "text_color": "#000000",
-            "button_background": "#1a1a1a",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "block-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1-banner-01-2-2880x1380.png",
-            "mobile_image": "shopify://shop_images/1-banner-01M-2.png",
+            "image": "shopify://shop_images/1-banner-01-2-2880x1380_7d48621c-af6a-45dc-8b5a-c830040a1baa.png",
+            "mobile_image": "shopify://shop_images/1-banner-01M-3.png",
             "content_max_width": 640,
-            "mobile_text_position": "place-self-start-center text-center",
+            "mobile_text_position": "place-self-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "Where Legends Ascend",
             "title": "Chizha Mount Ling Dock For Steam Dock",
@@ -48,9 +26,9 @@
             "button_text": "Learn More",
             "button_link": "shopify://products/dockcase-chizha-mount-ling-dock-for-steam-deck",
             "text_color": "#ffffff",
-            "button_background": "#00aad1",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#f2f2f2",
+            "overlay_color": "#ffffff",
             "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
@@ -62,17 +40,17 @@
             "image": "shopify://shop_images/1-banner-02-2880x1380_6abb2a88-a916-4fc8-9a57-001440bf2285.png",
             "mobile_image": "shopify://shop_images/1-banner-02M_2ab67bcb-ac25-460a-b7f7-ad780699f8c4.png",
             "content_max_width": 680,
-            "mobile_text_position": "place-self-start-center text-center",
+            "mobile_text_position": "place-self-start-end text-end",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "Data Guardian On-the-Go",
             "title": "Chizha Pocket Smart 2230 M.2 NVMe SSD Enclosure",
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "button_text": "Learn More",
             "button_link": "shopify://products/dockcase-chizha-pocket-smart-2230-m-2-nvme-ssd-enclosure",
             "text_color": "#ffffff",
             "button_background": "#00aad1",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#ffffff",
             "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
@@ -84,7 +62,7 @@
             "image": "shopify://shop_images/1-banner-03-2-2880x1380_bebaa4d2-b8b0-4fbd-a046-0c3cf52d0d0e.png",
             "mobile_image": "shopify://shop_images/1-banner-03M_49619c67-afdf-43fe-9758-57c90d93952f.png",
             "content_max_width": 680,
-            "mobile_text_position": "place-self-start-center text-center",
+            "mobile_text_position": "place-self-start-end text-end",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
             "title": "Smart USB-C Hub 7-in-1 with M.2 SSD Enclosure",
@@ -102,7 +80,6 @@
         }
       },
       "block_order": [
-        "image_b8cwLB",
         "block-1",
         "image_ikBBnt",
         "image_KbnJwi"
@@ -130,7 +107,7 @@
             "image": "shopify://shop_images/9fc1b9639876f6d8ec7fbadb3382ce7a_5d2b40ca-e045-4450-a4cd-420bf24535e3.png",
             "stretch_image": true,
             "link_text": "NEW",
-            "link_url": "https://www.kickstarter.com/projects/dockcaseexplorerepro/chizha-mount-ling-dock-where-legends-ascend?ref=316cnc&token=60fecb8c",
+            "link_url": "https://selfixcase.com",
             "background": "rgba(0,0,0,0)",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -200,7 +177,7 @@
       "name": "Image link blocks",
       "settings": {
         "full_width": true,
-        "block_size": "medium",
+        "block_size": "small",
         "subheading": "",
         "title": "Shop Collections",
         "content": "",
@@ -216,8 +193,15 @@
     "section-5": {
       "type": "featured-collection",
       "settings": {
-        "collection": "ssd-enclosure",
-        "products": [],
+        "collection": "",
+        "products": [
+          "dockcase-chizha-mount-ling-dock-for-steam-deck",
+          "dockcase-chizha-m-2-nvme-ssd-enclosure",
+          "dockcase-pocket-smart-2230-m-2-nvme-ssd-enclosure-matte-black",
+          "dockcase-smart-10-in-1-usb-c-hub-hdmi-dp-explorer-edition",
+          "dockcase-smart-6-in-1-usb-c-hub-explorer-edition",
+          "dockcase-smart-m-2-nvme-ssd-enclosure-explorer-edition"
+        ],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
@@ -247,8 +231,8 @@
             "title": "Smart Hub",
             "subheading": "Smart 10-in-1 USB-C Hub Explorer Edition",
             "content": "<p>Not Just a hub——your command center for limitless expansion.</p>",
-            "button_text": "Learn More",
-            "button_url": "shopify://collections/all",
+            "button_text": "Shop 10-in-1 USB Hub",
+            "button_url": "shopify://collections/usb-c-hub",
             "animate_impact_text": false,
             "animate_impact_text_duration": 2
           }
@@ -263,14 +247,14 @@
         "text_alignment": "center",
         "impact_text_style": "fill",
         "text_divider": "none",
-        "impact_text_size_ratio": 1,
+        "impact_text_size_ratio": 0.8,
         "background": "#000000",
         "background_gradient": "",
         "heading_text_color": "#f0f0f0",
         "heading_gradient": "linear-gradient(180deg, rgba(51, 51, 51, 1), rgba(13, 13, 13, 1) 100%)",
         "text_color": "#ffffff",
-        "button_background": "#00aad1",
-        "button_text_color": "#000000"
+        "button_background": "#000000",
+        "button_text_color": "#ffffff"
       }
     },
     "single_image_4bykVW": {
@@ -318,10 +302,10 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/3-10in1-03.png",
-            "title": "",
-            "heading_tag": "h5",
+            "title": "D-Key Control",
+            "heading_tag": "h6",
             "link_url": "",
-            "link_text": "D-Key Control",
+            "link_text": "",
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_column_span": 1,
             "desktop_row_span": 1,
@@ -340,10 +324,10 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/3-10in1-04.png",
-            "title": "",
-            "heading_tag": "h5",
+            "title": "UHS-II SD&TF",
+            "heading_tag": "h6",
             "link_url": "",
-            "link_text": "UHS-II SD&TF",
+            "link_text": "",
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_column_span": 1,
             "desktop_row_span": 1,
@@ -362,14 +346,14 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/3-10in1-05.png",
-            "title": "",
-            "heading_tag": "h5",
+            "title": "Gigabit Ethernet",
+            "heading_tag": "h6",
             "link_url": "",
-            "link_text": "Gigabit Ethernet",
-            "mobile_text_position": "place-self-start-center text-center",
+            "link_text": "",
+            "mobile_text_position": "place-self-end text-end",
             "desktop_column_span": 2,
             "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "desktop_text_position": "sm:place-self-end sm:text-end",
             "background": "#000000",
             "background_gradient": "",
             "text_color": "#ffffff",
@@ -404,9 +388,9 @@
           "settings": {
             "title": "SSD Enclosure",
             "subheading": "Pocket Smart 2230 M.2 NVMe SSD Enclosure",
-            "content": "<p>Portable doesn’t mean basic. Dockcase takes data seriously—dual protection, live monitoring, and pro-grade reliability, all packed in a compact, minimalist shell. It’s more than storage, it’s your pocket-sized fortress for a life on the move.</p>",
-            "button_text": "Learn More",
-            "button_url": "#",
+            "content": "<p><strong>Pro-grade data security in your pocket.</strong><br/>Dual protection and real-time power monitoring, packed into a minimalist shell. Your portable fortress for a life on the move.<br/><br/></p>",
+            "button_text": "Shop 2230 SSD Enclosure",
+            "button_url": "shopify://collections/ssd-enclosure",
             "animate_impact_text": false,
             "animate_impact_text_duration": 2
           }
@@ -429,7 +413,7 @@
         "heading_gradient": "linear-gradient(180deg, rgba(51, 51, 51, 1), rgba(13, 13, 13, 1) 100%)",
         "text_color": "#ffffff",
         "button_background": "#00aad1",
-        "button_text_color": "#000000"
+        "button_text_color": "#ffffff"
       }
     },
     "single_image_VwMABR": {
@@ -477,11 +461,11 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/4-SSD-Enclosure_03.png",
-            "title": "",
-            "heading_tag": "h5",
+            "title": "D-Key Control",
+            "heading_tag": "h6",
             "link_url": "",
-            "link_text": "D-Key Control",
-            "mobile_text_position": "place-self-end-start text-start",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 1,
             "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
@@ -499,11 +483,11 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/4-SSD-Enclosure_04.png",
-            "title": "",
-            "heading_tag": "h5",
+            "title": "Power Loss Protection",
+            "heading_tag": "h6",
             "link_url": "",
-            "link_text": "PLP",
-            "mobile_text_position": "place-self-end-start text-start",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 1,
             "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
@@ -521,14 +505,14 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/4-SSD-Enclosure_05.png",
-            "title": "",
-            "heading_tag": "h5",
+            "title": "SSD Status Monitor",
+            "heading_tag": "h6",
             "link_url": "",
-            "link_text": "SSD Status Monitor",
+            "link_text": "",
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_column_span": 2,
             "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "background": "#000000",
             "background_gradient": "",
             "text_color": "#ffffff",
@@ -565,8 +549,8 @@
             "title": "Chizha",
             "subheading": "Dockcase Chizha M.2 NVMe SSD Enclosure",
             "content": "<p>Cyberpunk style meets armored performance-storage redefined.</p>",
-            "button_text": "Learn More",
-            "button_url": "#",
+            "button_text": "Shop Chizha SSD Enclosure",
+            "button_url": "shopify://collections/chizha",
             "animate_impact_text": false,
             "animate_impact_text_duration": 2
           }
@@ -589,7 +573,7 @@
         "heading_gradient": "linear-gradient(180deg, rgba(51, 51, 51, 1), rgba(13, 13, 13, 1) 100%)",
         "text_color": "#ffffff",
         "button_background": "#00aad1",
-        "button_text_color": "#000000"
+        "button_text_color": "#ffffff"
       }
     },
     "single_image_GwKfk8": {
@@ -637,14 +621,14 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/5-Chizha_03.png",
-            "title": "",
-            "heading_tag": "h5",
+            "title": "Power Reminder",
+            "heading_tag": "h6",
             "link_url": "",
-            "link_text": "Power Shortage Reminder",
-            "mobile_text_position": "place-self-end-center text-center",
+            "link_text": "",
+            "mobile_text_position": "place-self-end text-end",
             "desktop_column_span": 1,
             "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "desktop_text_position": "sm:place-self-end sm:text-end",
             "background": "#000000",
             "background_gradient": "",
             "text_color": "#ffffff",
@@ -659,11 +643,11 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/5-Chizha_04.png",
-            "title": "",
-            "heading_tag": "h5",
+            "title": "15W Aux Power",
+            "heading_tag": "h6",
             "link_url": "",
-            "link_text": "15W Auxiliary Power Supply",
-            "mobile_text_position": "place-self-end-center text-center",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
             "desktop_column_span": 1,
             "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
@@ -681,10 +665,10 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/5-Chizha_05.png",
-            "title": "",
+            "title": "Dual Data Protection",
             "heading_tag": "h5",
             "link_url": "",
-            "link_text": "Dual Data Protection",
+            "link_text": "",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 2,
             "desktop_row_span": 1,
@@ -716,6 +700,121 @@
         "background_gradient": ""
       }
     },
+    "testimonials_biVcgx": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_rj3rxc": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/1.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Marcus T.",
+            "title": "The ultimate iPhone companion!",
+            "content": "<p>Finally, a 2230 enclosure that handles 4K ProRes recording without breaking a sweat. It’s incredibly compact and looks premium. If you’re a mobile creator, this is the missing piece of your gear kit.</p>"
+          }
+        },
+        "testimonial_AtHX4h": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/2.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Sarah J.",
+            "title": "Love the smart display!",
+            "content": "<p>I’ve never seen an enclosure this \"smart.\" The real-time health monitoring and SSD info on the display are game-changers. No more guessing—I can see exactly what’s happening with my data. It’s tech art.<br/></p>"
+          }
+        },
+        "testimonial_WBmVFU": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/3.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "David L.",
+            "title": "Peace of mind for my data.",
+            "content": "<p>As a developer, data integrity is everything. The Power Loss Protection (PLP) on this device is a lifesaver for my mission-critical files. It’s rugged, reliable, and gives me the confidence I need on the go.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_rj3rxc",
+        "testimonial_AtHX4h",
+        "testimonial_WBmVFU"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "",
+        "content": "<h4><em><strong>10K+ GEEKS TRUST DOCKCASE FOR THEIR DATA</strong></em></h4>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "press_y6yFDT": {
+      "type": "press",
+      "blocks": {
+        "quote_QC6QQF": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "“That smart screen is a TOTAL FLEX. Finally, I don't have to guess if my data is safe. It’s LITERALLY the smartest enclosure on the market. PERIOD.”",
+            "show_rating": false,
+            "rating": 4
+          }
+        },
+        "quote_zRQnnG": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "“ROCK SOLID! The Power Loss Protection gave me the PEACE OF MIND I needed. It feels like a MINI FORTRESS for my files. 10/10 design.”",
+            "show_rating": false,
+            "rating": 4
+          }
+        },
+        "quote_VUNjMF": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "“Clean, minimalist, and INSANELY POWERFUL. It looks as good as it performs. The BEST tech upgrade for my mobile setup this year!”",
+            "show_rating": false,
+            "rating": 4
+          }
+        }
+      },
+      "block_order": [
+        "quote_QC6QQF",
+        "quote_zRQnnG",
+        "quote_VUNjMF"
+      ],
+      "name": "Press",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "scrolling_text_jUkDrP": {
       "type": "scrolling-text",
       "name": "Scrolling text",
@@ -744,6 +843,81 @@
         "background": "#000000",
         "background_gradient": ""
       }
+    },
+    "text_with_icons_3G93Kj": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_8FHTNk": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-return",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "7-Day Money-Back Guarantee",
+            "content": "<p>Return within 7 days for a full refund — no questions asked and no hassle</p>"
+          }
+        },
+        "item_FiLiQy": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-earth",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping on all orders of $99</p>"
+          }
+        },
+        "item_49gdYV": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-chat",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Lifetime Customer support",
+            "content": "<p>We are available from monday to friday to answer your any questions within 24 hours</p>"
+          }
+        },
+        "item_XyHExB": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "100% Secure Payments",
+            "content": "<p>Choose from a variety of payment options, allfast, safe, and convenient</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_8FHTNk",
+        "item_FiLiQy",
+        "item_49gdYV",
+        "item_XyHExB"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -759,7 +933,10 @@
     "impact_text_mJYhGU",
     "single_image_GwKfk8",
     "media_grid_YACLng",
+    "testimonials_biVcgx",
+    "press_y6yFDT",
     "scrolling_text_jUkDrP",
-    "single_image_MUcJDK"
+    "single_image_MUcJDK",
+    "text_with_icons_3G93Kj"
   ]
 }

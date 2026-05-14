@@ -16,9 +16,9 @@
     "block_border_radius": 24,
     "block_shadow_opacity": 10,
     "block_shadow_vertical_offset": 18,
-    "icon_stroke_width": 2,
+    "icon_stroke_width": 1,
     "icon_style": "duo",
-    "button_style": "fill",
+    "button_style": "outline",
     "background": "#000000",
     "text_color": "#ffffff",
     "error_color": "#c00000",
@@ -50,7 +50,8 @@
     "discount_mode": "saving",
     "product_color_display": "swatch",
     "product_info_alignment": "start",
-    "cart_icon": "shopping_basket",
+    "cart_type": "popover",
+    "cart_icon": "shopping_cart",
     "cart_show_free_shipping_threshold": true,
     "social_facebook": "https://www.facebook.com/DockCase.global",
     "social_twitter": "https://x.com/DockcaseGlobal",
@@ -82,6 +83,25 @@
         "type": "shopify://apps/uppromote-affiliate/blocks/core-script/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
         "disabled": false,
         "settings": {}
+      },
+      "9752555012629308362": {
+        "type": "shopify://apps/parkour-facebook-pixel/blocks/threasury_pixel/f23b2ffe-4c53-446e-ad3a-7976ffbee5c2",
+        "disabled": false,
+        "settings": {}
+      },
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#000000",
+          "secondary_color": "#FFFFFF",
+          "ternary_color": "#6A6A6A",
+          "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "greeting_message": ""
+        }
       }
     }
   },

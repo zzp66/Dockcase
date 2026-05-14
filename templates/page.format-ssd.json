@@ -71,22 +71,11 @@
         "background": "",
         "background_gradient": ""
       }
-    },
-    "user_manual_download_iLePxX": {
-      "type": "user-manual-download",
-      "name": "User Manual Download",
-      "settings": {
-        "header": "",
-        "full_width": true,
-        "background": "",
-        "background_gradient": ""
-      }
     }
   },
   "order": [
     "main",
     "rich_text_G7AzPN",
-    "format_ssd_guide_1_bawTNG",
-    "user_manual_download_iLePxX"
+    "format_ssd_guide_1_bawTNG"
   ]
 }

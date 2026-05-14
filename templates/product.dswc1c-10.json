@@ -36,6 +36,7 @@
         },
         "offer_FRefcP": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
@@ -278,7 +279,6 @@
         },
         "item_7AKqmP": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "item_img_pc": "shopify://shop_images/A__PC_07_a28824f3-be27-4014-ac79-bc531fa94381.png",
             "item_img_mb": "shopify://shop_images/A__M_07_b8780d63-bd8c-44c0-bce6-cc07d87cc2cc.png",
@@ -327,7 +327,6 @@
         },
         "item_jXM3hb": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "item_img_pc": "shopify://shop_images/A__PC_07-2_18c8cffe-59bf-4074-aa0e-b15cd24975e8.png",
             "item_img_mb": "shopify://shop_images/A__M_07-2_c21a99fe-c7a0-4969-9fe1-19154cc9b0e5.png",

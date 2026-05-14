@@ -1,1 +1,162 @@
-{"type":"header","name":"Header group","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"message":{"type":"message","settings":{"text":"Announce something here","url":""}}},"block_order":["message"],"disabled":true,"settings":{"enable_sticky":false,"navigation_mode":"scrolling","autoplay":false,"cycle_speed":6,"scrolling_speed":10,"text_size":"text-xs","background":"#1a1a1a","background_gradient":"","text_color":"#ffffff"}},"header":{"type":"header","settings":{"enable_sticky":true,"hide_on_scroll":false,"logo":"shopify:\/\/shop_images\/0-logo-01.png","logo_max_width":150,"logo_mobile_max_width":100,"menu":"main-menu","sidebar_menu":"","secondary_menu":"","menu_open_trigger":"hover","opening_from":"bottom","layout":"logo_left_navigation_center","show_social_media":true,"show_locale_selector":true,"show_country_selector":true,"show_country_flag":true,"show_country_name":false,"transparent_header_text_color":"#ffffff","reduce_padding":false,"background_opacity":100,"background_blur_radius":0}}},"order":["announcement-bar","header"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message_BEEGnC": {
+          "type": "message",
+          "settings": {
+            "text": "✈️ Free shipping over orders $99",
+            "url": ""
+          }
+        },
+        "message_Amw8At": {
+          "type": "message",
+          "settings": {
+            "text": "🛡️ 7-Day Money-Back Guarantee",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "message_BEEGnC",
+        "message_Amw8At"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "navigation_mode": "arrows",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "scrolling_speed": 10,
+        "text_size": "text-xs",
+        "background": "#1a1a1a",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "mega_menu_D4Mb4h": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Chizha",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "collection": "chizha",
+            "image_1": "shopify://shop_images/M_01.jpg",
+            "image_heading_1": "",
+            "image_link_1": "shopify://products/dockcase-chizha-mount-ling-dock-for-steam-deck",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify://shop_images/B1_06_e3767f50-dfa3-4fea-af1a-d8859036d28e.png",
+            "image_heading_2": "",
+            "image_link_2": "shopify://products/dockcase-chizha-m-2-nvme-ssd-enclosure",
+            "image_text_color_2": "#ffffff",
+            "image_3": "shopify://shop_images/B1_02_d6ed8760-662f-4a2b-a3e2-7406a1e5cf12.png",
+            "image_heading_3": "",
+            "image_link_3": "shopify://products/dockcase-chizha-pocket-smart-2230-m-2-nvme-ssd-enclosure",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "mega_menu_MJMmaP": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "USB Hub",
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "collection": "usb-c-hub",
+            "image_1": "shopify://shop_images/A__M_01_7ead95ec-8432-4165-b333-901a6ca031e6.png",
+            "image_heading_1": "",
+            "image_link_1": "shopify://products/dockcase-smart-10-in-1-usb-c-hub-hdmi-dp-explorer-edition",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": true,
+            "drawer_link_image": "show"
+          }
+        },
+        "mega_menu_LUTPBj": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "USB Drive",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "collection": "usb-drive",
+            "image_1": "shopify://shop_images/A__M_02_67645dcf-71d5-41ac-94b4-5381912ae816.png",
+            "image_heading_1": "",
+            "image_link_1": "shopify://products/dockcase-smart-m-2-nvme-ssd-enclosure-explorer-edition",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "#f2f2f2",
+            "product_card_text_color": "#000000",
+            "promo_content_layout": "carousel",
+            "stretch_promo": true,
+            "drawer_link_image": "show"
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_D4Mb4h",
+        "mega_menu_MJMmaP",
+        "mega_menu_LUTPBj"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "logo": "shopify://shop_images/0-logo-01.png",
+        "logo_max_width": 150,
+        "logo_mobile_max_width": 100,
+        "menu": "main-menu",
+        "sidebar_menu": "",
+        "secondary_menu": "",
+        "menu_open_trigger": "hover",
+        "opening_from": "bottom",
+        "layout": "logo_left_navigation_center",
+        "show_social_media": true,
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": false,
+        "transparent_header_text_color": "#ffffff",
+        "reduce_padding": false,
+        "background_opacity": 100,
+        "background_blur_radius": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
