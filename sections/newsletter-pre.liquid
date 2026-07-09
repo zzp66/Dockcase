@@ -1,0 +1,327 @@
+{%- render 'section-spacing-collapsing' -%}
+
+<style>
+  #shopify-section-{{ section.id }} .newsletter-pre {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--spacing-10);
+    align-items: stretch;
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-8);
+    background-color: {{ section.settings.card_background }};
+    padding: var(--spacing-10);
+    border-radius: var(--rounded);
+    text-align: center;
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__deposit-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-8);
+    background-color: {{ section.settings.card_background }};
+    padding: var(--spacing-10);
+    border-radius: var(--rounded);
+    text-align: center;
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__deposit-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: var(--spacing-6);
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__deposit-image {
+    border-radius: var(--rounded);
+    overflow: hidden;
+    flex: 0 0 180px;
+    max-width: 180px;
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__deposit-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__form {
+    width: 100%;
+    max-width: 420px;
+    margin-inline: auto;
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__actions {
+    margin-top: var(--spacing-4);
+  }
+
+  @media screen and (max-width: 767px) {
+    #shopify-section-{{ section.id }} .newsletter-pre {
+      grid-template-columns: minmax(0, 1fr);
+      gap: var(--spacing-5);
+    }
+
+    #shopify-section-{{ section.id }} .newsletter-pre__card,
+    #shopify-section-{{ section.id }} .newsletter-pre__deposit-card {
+      padding: var(--spacing-8) var(--spacing-5);
+      gap: var(--spacing-5);
+    }
+
+    #shopify-section-{{ section.id }} .newsletter-pre__deposit-image {
+      flex-basis: 135px;
+      max-width: 135px;
+    }
+  }
+</style>
+
+<div {% render 'section-properties' %}>
+  <div class="section-stack">
+    <div class="newsletter-pre">
+      <div class="newsletter-pre__card">
+        <div class="v-stack gap-2">
+          {%- if section.settings.heading != blank -%}
+            <h2 class="h3">{{ section.settings.heading | escape }}</h2>
+          {%- endif -%}
+
+          {%- if section.settings.subheading != blank -%}
+            <p class="text-subdued">{{ section.settings.subheading | escape }}</p>
+          {%- endif -%}
+        </div>
+
+        <div class="newsletter-pre__form">
+          {%- assign newsletter_form_id = 'newsletter-pre-form-' | append: section.id -%}
+
+          {%- form 'customer', id: newsletter_form_id, class: 'form' -%}
+            {%- if form.posted_successfully? -%}
+              {%- assign success_message = 'general.newsletter.subscribed_successfully' | t -%}
+              {%- render 'banner', content: success_message, status: 'success' -%}
+            {%- else -%}
+              {%- if form.errors -%}
+                {%- capture error_message -%}{{ form.errors.translated_fields.email }} {{ form.errors.messages.email }}{%- endcapture -%}
+                {%- render 'banner', content: error_message, status: 'error' -%}
+              {%- endif -%}
+
+              <input type="hidden" name="contact[tags]" value="newsletter">
+
+              <div class="fieldset">
+                {%- if section.settings.email_label != blank -%}
+                  {%- assign email_label = section.settings.email_label -%}
+                {%- else -%}
+                  {%- assign email_label = 'general.newsletter.email' | t -%}
+                {%- endif -%}
+                {%- render 'input',
+                  name: 'contact[email]',
+                  label: email_label,
+                  type: 'email',
+                  required: true,
+                  autocomplete: 'email',
+                  enterkeyhint: 'send'
+                -%}
+              </div>
+
+              <div class="newsletter-pre__actions">
+                {%- render 'button',
+                  type: 'submit',
+                  content: section.settings.subscribe_btn_text,
+                  size: 'xl',
+                  icon: 'picto-envelope',
+                  stretch: true,
+                  background: section.settings.button_background,
+                  text_color: section.settings.button_text_color
+                -%}
+              </div>
+            {%- endif -%}
+          {%- endform -%}
+        </div>
+      </div>
+
+      <div class="newsletter-pre__deposit-card">
+        <div class="newsletter-pre__deposit-content">
+          <div class="v-stack gap-2">
+            {%- if section.settings.buy_text != blank -%}
+              <h2 class="h3">{{ section.settings.buy_text | escape }}</h2>
+            {%- endif -%}
+
+            {%- if section.settings.buy_info != blank -%}
+              <p class="text-subdued">{{ section.settings.buy_info | escape }}</p>
+            {%- endif -%}
+          </div>
+
+          <div class="newsletter-pre__actions">
+            {%- if section.settings.buy_product != blank -%}
+              {%- assign deposit_product = section.settings.buy_product -%}
+              {%- assign deposit_variant = deposit_product.selected_or_first_available_variant -%}
+
+              {%- if deposit_variant != blank -%}
+                {%- capture checkout_url -%}{{ routes.cart_url }}/{{ deposit_variant.id }}:1?checkout{%- endcapture -%}
+                {%- render 'button',
+                  href: checkout_url,
+                  content: section.settings.buy_btn_text,
+                  size: 'xl',
+                  stretch: true,
+                  background: section.settings.deposit_button_background,
+                  text_color: section.settings.deposit_button_text_color
+                -%}
+              {%- else -%}
+                {%- render 'button',
+                  content: section.settings.buy_btn_text,
+                  size: 'xl',
+                  stretch: true,
+                  disabled: true
+                -%}
+              {%- endif -%}
+            {%- endif -%}
+          </div>
+        </div>
+
+        {%- if section.settings.buy_img != blank -%}
+          <div class="newsletter-pre__deposit-image">
+            {{- section.settings.buy_img | image_url: width: 360 | image_tag: loading: 'lazy', widths: '180, 270, 360', sizes: '180px', alt: section.settings.buy_text -}}
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Newsletter Pre-order",
+  "class": "shopify-section--newsletter-pre",
+  "tag": "section",
+  "disabled_on": {
+    "templates": ["password"],
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "header",
+      "content": "邮件订阅"
+    },
+    {
+      "type": "paragraph",
+      "content": "订阅用户的邮箱将加入「接受营销」客户列表。"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "订阅标题",
+      "default": "Get An Exclusive Discount!"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "订阅文案"
+    },
+    {
+      "type": "text",
+      "id": "email_label",
+      "label": "邮箱输入框标签",
+      "default": "Enter your email address"
+    },
+    {
+      "type": "text",
+      "id": "subscribe_btn_text",
+      "label": "订阅按钮文案",
+      "default": "Reserve launch invite"
+    },
+    {
+      "type": "header",
+      "content": "定金支付"
+    },
+    {
+      "type": "text",
+      "id": "buy_text",
+      "label": "定金标题",
+      "default": "Pay $1 now."
+    },
+    {
+      "type": "textarea",
+      "id": "buy_info",
+      "label": "定金文案"
+    },
+    {
+      "type": "product",
+      "id": "buy_product",
+      "label": "定金产品"
+    },
+    {
+      "type": "text",
+      "id": "buy_btn_text",
+      "label": "支付按钮文案",
+      "default": "Pay Now"
+    },
+    {
+      "type": "image_picker",
+      "id": "buy_img",
+      "label": "右侧图片"
+    },
+    {
+      "type": "header",
+      "content": "样式"
+    },
+    {
+      "type": "color",
+      "id": "card_background",
+      "label": "卡片背景色",
+      "default": "#f3f3f3"
+    },
+    {
+      "type": "header",
+      "content": "以下为模板基础配置"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "订阅按钮背景色"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "订阅按钮文字色"
+    },
+    {
+      "type": "color",
+      "id": "deposit_button_background",
+      "label": "支付按钮背景色"
+    },
+    {
+      "type": "color",
+      "id": "deposit_button_text_color",
+      "label": "支付按钮文字色"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Newsletter Pre-order",
+      "category": "Call to action"
+    }
+  ]
+}
+{% endschema %}
