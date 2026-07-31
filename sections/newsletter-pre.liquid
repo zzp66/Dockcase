@@ -13,48 +13,62 @@
   #shopify-section-{{ section.id }} .newsletter-pre {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: var(--spacing-10);
+    grid-template-rows: auto auto;
+    column-gap: var(--spacing-10);
+    row-gap: 0;
     align-items: stretch;
   }
 
-  #shopify-section-{{ section.id }} .newsletter-pre__card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  #shopify-section-{{ section.id }} .newsletter-pre__card,
+  #shopify-section-{{ section.id }} .newsletter-pre__deposit-card {
+    grid-row: span 2;
+    display: grid;
+    grid-template-rows: subgrid;
     gap: var(--spacing-8);
     background-color: {{ section.settings.card_background }};
     padding: var(--spacing-10);
     border-radius: var(--rounded);
     text-align: center;
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__card {
+    justify-items: center;
   }
 
   #shopify-section-{{ section.id }} .newsletter-pre__deposit-card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: var(--spacing-8);
-    background-color: {{ section.settings.card_background }};
-    padding: var(--spacing-10);
-    border-radius: var(--rounded);
-    text-align: center;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: stretch;
+    column-gap: var(--spacing-8);
   }
 
-  #shopify-section-{{ section.id }} .newsletter-pre__deposit-content {
-    flex: 1;
-    min-width: 0;
+  #shopify-section-{{ section.id }} .newsletter-pre__header,
+  #shopify-section-{{ section.id }} .newsletter-pre__actions {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__header {
     justify-content: center;
-    gap: var(--spacing-6);
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__actions {
+    height: 100%;
+    justify-content: flex-start;
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__deposit-card > .newsletter-pre__header,
+  #shopify-section-{{ section.id }} .newsletter-pre__deposit-card > .newsletter-pre__actions {
+    grid-column: 1;
   }
 
   #shopify-section-{{ section.id }} .newsletter-pre__deposit-image {
+    grid-column: 2;
+    grid-row: 1 / -1;
+    align-self: center;
     border-radius: var(--rounded);
     overflow: hidden;
-    flex: 0 0 var(--newsletter-pre-deposit-image-width);
     width: var(--newsletter-pre-deposit-image-width);
     max-width: var(--newsletter-pre-deposit-image-width);
   }
@@ -66,14 +80,75 @@
   }
 
   #shopify-section-{{ section.id }} .newsletter-pre__form {
-    width: 100%;
-    max-width: 420px;
-    margin-inline: auto;
+    display: contents;
   }
 
-  #shopify-section-{{ section.id }} .newsletter-pre__actions {
+  #shopify-section-{{ section.id }} .newsletter-pre__actions-inner {
     width: 100%;
-    margin-top: var(--spacing-4);
+    max-width: 420px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__form-group {
+    width: 100%;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__field {
+    width: 100%;
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__email {
+    width: 100%;
+    padding: 12px 24px;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: var(--rounded-button);
+    font-size: 15px;
+    line-height: 1.4;
+    text-align: center;
+    background: #fff;
+    color: #000;
+    box-sizing: border-box;
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__email::placeholder {
+    color: #999;
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__email:focus {
+    border-color: #000;
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__button-row {
+    width: 100%;
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__deposit-card .newsletter-pre__button-row {
+    margin-top: auto;
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__button-row .button {
+    width: 100%;
+  }
+
+  #shopify-section-{{ section.id }} .newsletter-pre__sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 
   @media screen and (max-width: 767px) {
@@ -83,13 +158,34 @@
 
     #shopify-section-{{ section.id }} .newsletter-pre {
       grid-template-columns: minmax(0, 1fr);
+      grid-template-rows: none;
       gap: var(--spacing-5);
     }
 
     #shopify-section-{{ section.id }} .newsletter-pre__card,
     #shopify-section-{{ section.id }} .newsletter-pre__deposit-card {
+      grid-row: auto;
+      display: grid;
+      grid-template-rows: auto auto;
       padding: var(--spacing-8) var(--spacing-5);
       gap: var(--spacing-5);
+    }
+
+    #shopify-section-{{ section.id }} .newsletter-pre__deposit-card {
+      grid-template-columns: minmax(0, 1fr) auto;
+      column-gap: var(--spacing-5);
+    }
+
+    #shopify-section-{{ section.id }} .newsletter-pre__deposit-image {
+      grid-column: 2;
+      grid-row: 1 / -1;
+      width: var(--newsletter-pre-deposit-image-width);
+      max-width: var(--newsletter-pre-deposit-image-width);
+    }
+
+    #shopify-section-{{ section.id }} .newsletter-pre__email {
+      font-size: 14px;
+      padding: 10px 20px;
     }
   }
 </style>
@@ -98,65 +194,79 @@
   <div class="section-stack">
     <div class="newsletter-pre">
       <div class="newsletter-pre__card">
-        <div class="v-stack gap-2">
-          {%- if section.settings.heading != blank -%}
-            <h2 class="h3">{{ section.settings.heading | escape }}</h2>
-          {%- endif -%}
-
-          {%- if section.settings.subheading != blank -%}
-            <p class="text-subdued">{{ section.settings.subheading | escape }}</p>
-          {%- endif -%}
-        </div>
-
-        <div class="newsletter-pre__form">
-          {%- assign newsletter_form_id = 'newsletter-pre-form-' | append: section.id -%}
-
-          {%- form 'customer', id: newsletter_form_id, class: 'form' -%}
-            {%- if form.posted_successfully? -%}
-              {%- assign success_message = 'general.newsletter.subscribed_successfully' | t -%}
-              {%- render 'banner', content: success_message, status: 'success' -%}
-            {%- else -%}
-              {%- if form.errors -%}
-                {%- capture error_message -%}{{ form.errors.translated_fields.email }} {{ form.errors.messages.email }}{%- endcapture -%}
-                {%- render 'banner', content: error_message, status: 'error' -%}
-              {%- endif -%}
-
-              <input type="hidden" name="contact[tags]" value="newsletter">
-
-              <div class="fieldset">
-                {%- if section.settings.email_label != blank -%}
-                  {%- assign email_label = section.settings.email_label -%}
-                {%- else -%}
-                  {%- assign email_label = 'general.newsletter.email' | t -%}
-                {%- endif -%}
-                {%- render 'input',
-                  name: 'contact[email]',
-                  label: email_label,
-                  type: 'email',
-                  required: true,
-                  autocomplete: 'email',
-                  enterkeyhint: 'send'
-                -%}
-              </div>
-
-              <div class="newsletter-pre__actions">
-                {%- render 'button',
-                  type: 'submit',
-                  content: section.settings.subscribe_btn_text,
-                  size: 'xl',
-                  icon: 'picto-envelope',
-                  stretch: true,
-                  background: section.settings.button_background,
-                  text_color: section.settings.button_text_color
-                -%}
-              </div>
+        <div class="newsletter-pre__header">
+          <div class="v-stack gap-2">
+            {%- if section.settings.heading != blank -%}
+              <h2 class="h3">{{ section.settings.heading | escape }}</h2>
             {%- endif -%}
-          {%- endform -%}
+
+            {%- if section.settings.subheading != blank -%}
+              <p class="text-subdued">{{ section.settings.subheading | escape }}</p>
+            {%- endif -%}
+          </div>
         </div>
+
+        {%- assign newsletter_form_id = 'newsletter-pre-form-' | append: section.id -%}
+        {%- if section.settings.email_label != blank -%}
+          {%- assign email_label = section.settings.email_label -%}
+        {%- else -%}
+          {%- assign email_label = 'general.newsletter.email' | t -%}
+        {%- endif -%}
+        {%- form 'customer', id: newsletter_form_id, class: 'form newsletter-pre__form' -%}
+          <div class="newsletter-pre__actions">
+            <div class="newsletter-pre__actions-inner">
+              {%- if form.posted_successfully? -%}
+                {%- assign success_message = 'general.newsletter.subscribed_successfully' | t -%}
+                {%- render 'banner', content: success_message, status: 'success' -%}
+              {%- else -%}
+                <div class="newsletter-pre__form-group">
+                  {%- if form.errors -%}
+                    {%- capture error_message -%}{{ form.errors.translated_fields.email }} {{ form.errors.messages.email }}{%- endcapture -%}
+                    {%- render 'banner', content: error_message, status: 'error' -%}
+                  {%- endif -%}
+
+                  <input type="hidden" name="contact[tags]" value="newsletter">
+
+                  <div class="newsletter-pre__field">
+                    <label class="newsletter-pre__sr-only" for="NewsletterPreEmail-{{ section.id }}">
+                      {{- email_label | escape -}}
+                    </label>
+                    <input
+                      id="NewsletterPreEmail-{{ section.id }}"
+                      class="newsletter-pre__email"
+                      type="email"
+                      name="contact[email]"
+                      autocorrect="off"
+                      autocapitalize="off"
+                      autocomplete="email"
+                      enterkeyhint="send"
+                      placeholder="{{ email_label | escape }}"
+                      required
+                      {% if form.errors %}
+                        aria-invalid="true"
+                      {% endif %}
+                    >
+                  </div>
+
+                  <div class="newsletter-pre__button-row">
+                    {%- render 'button',
+                      type: 'submit',
+                      content: section.settings.subscribe_btn_text,
+                      size: 'xl',
+                      stretch: true,
+                      background: section.settings.button_background,
+                      text_color: section.settings.button_text_color
+                    -%}
+                  </div>
+                </div>
+              {%- endif -%}
+            </div>
+          </div>
+        {%- endform -%}
       </div>
 
       <div class="newsletter-pre__deposit-card">
-        <div class="newsletter-pre__deposit-content">
+        <div class="newsletter-pre__header">
           <div class="v-stack gap-2">
             {%- if section.settings.buy_text != blank -%}
               <h2 class="h3">{{ section.settings.buy_text | escape }}</h2>
@@ -166,31 +276,35 @@
               <p class="text-subdued">{{ section.settings.buy_info | escape }}</p>
             {%- endif -%}
           </div>
+        </div>
 
-          <div class="newsletter-pre__actions">
-            {%- if section.settings.buy_product != blank -%}
-              {%- assign deposit_product = section.settings.buy_product -%}
-              {%- assign deposit_variant = deposit_product.selected_or_first_available_variant -%}
+        <div class="newsletter-pre__actions">
+          <div class="newsletter-pre__actions-inner">
+            <div class="newsletter-pre__button-row">
+              {%- if section.settings.buy_product != blank -%}
+                {%- assign deposit_product = section.settings.buy_product -%}
+                {%- assign deposit_variant = deposit_product.selected_or_first_available_variant -%}
 
-              {%- if deposit_variant != blank -%}
-                {%- capture checkout_url -%}{{ routes.cart_url }}/{{ deposit_variant.id }}:1?checkout{%- endcapture -%}
-                {%- render 'button',
-                  href: checkout_url,
-                  content: section.settings.buy_btn_text,
-                  size: 'xl',
-                  stretch: true,
-                  background: section.settings.deposit_button_background,
-                  text_color: section.settings.deposit_button_text_color
-                -%}
-              {%- else -%}
-                {%- render 'button',
-                  content: section.settings.buy_btn_text,
-                  size: 'xl',
-                  stretch: true,
-                  disabled: true
-                -%}
+                {%- if deposit_variant != blank -%}
+                  {%- capture checkout_url -%}{{ routes.cart_url }}/{{ deposit_variant.id }}:1?checkout{%- endcapture -%}
+                  {%- render 'button',
+                    href: checkout_url,
+                    content: section.settings.buy_btn_text,
+                    size: 'xl',
+                    stretch: true,
+                    background: section.settings.deposit_button_background,
+                    text_color: section.settings.deposit_button_text_color
+                  -%}
+                {%- else -%}
+                  {%- render 'button',
+                    content: section.settings.buy_btn_text,
+                    size: 'xl',
+                    stretch: true,
+                    disabled: true
+                  -%}
+                {%- endif -%}
               {%- endif -%}
-            {%- endif -%}
+            </div>
           </div>
         </div>
 
