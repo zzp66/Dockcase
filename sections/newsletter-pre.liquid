@@ -1,6 +1,15 @@
 {%- render 'section-spacing-collapsing' -%}
 
+{%- liquid
+  assign deposit_image_width = section.settings.deposit_image_width | default: 180
+  assign deposit_image_width_mobile = section.settings.deposit_image_width_mobile | default: 135
+-%}
+
 <style>
+  #shopify-section-{{ section.id }} {
+    --newsletter-pre-deposit-image-width: {{ deposit_image_width }}px;
+  }
+
   #shopify-section-{{ section.id }} .newsletter-pre {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -11,6 +20,8 @@
   #shopify-section-{{ section.id }} .newsletter-pre__card {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: var(--spacing-8);
     background-color: {{ section.settings.card_background }};
     padding: var(--spacing-10);
@@ -20,8 +31,9 @@
 
   #shopify-section-{{ section.id }} .newsletter-pre__deposit-card {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: var(--spacing-8);
     background-color: {{ section.settings.card_background }};
     padding: var(--spacing-10);
@@ -30,18 +42,21 @@
   }
 
   #shopify-section-{{ section.id }} .newsletter-pre__deposit-content {
-    width: 100%;
+    flex: 1;
+    min-width: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     gap: var(--spacing-6);
   }
 
   #shopify-section-{{ section.id }} .newsletter-pre__deposit-image {
     border-radius: var(--rounded);
     overflow: hidden;
-    flex: 0 0 180px;
-    max-width: 180px;
+    flex: 0 0 var(--newsletter-pre-deposit-image-width);
+    width: var(--newsletter-pre-deposit-image-width);
+    max-width: var(--newsletter-pre-deposit-image-width);
   }
 
   #shopify-section-{{ section.id }} .newsletter-pre__deposit-image img {
@@ -57,10 +72,15 @@
   }
 
   #shopify-section-{{ section.id }} .newsletter-pre__actions {
+    width: 100%;
     margin-top: var(--spacing-4);
   }
 
   @media screen and (max-width: 767px) {
+    #shopify-section-{{ section.id }} {
+      --newsletter-pre-deposit-image-width: {{ deposit_image_width_mobile }}px;
+    }
+
     #shopify-section-{{ section.id }} .newsletter-pre {
       grid-template-columns: minmax(0, 1fr);
       gap: var(--spacing-5);
@@ -70,11 +90,6 @@
     #shopify-section-{{ section.id }} .newsletter-pre__deposit-card {
       padding: var(--spacing-8) var(--spacing-5);
       gap: var(--spacing-5);
-    }
-
-    #shopify-section-{{ section.id }} .newsletter-pre__deposit-image {
-      flex-basis: 135px;
-      max-width: 135px;
     }
   }
 </style>
@@ -180,8 +195,18 @@
         </div>
 
         {%- if section.settings.buy_img != blank -%}
+          {%- assign deposit_image_srcset_width = deposit_image_width | at_least: deposit_image_width_mobile | times: 2 -%}
+          {%- capture deposit_image_sizes -%}(max-width: 767px) {{ deposit_image_width_mobile }}px, {{ deposit_image_width }}px{%- endcapture -%}
           <div class="newsletter-pre__deposit-image">
-            {{- section.settings.buy_img | image_url: width: 360 | image_tag: loading: 'lazy', widths: '180, 270, 360', sizes: '180px', alt: section.settings.buy_text -}}
+            {{-
+              section.settings.buy_img
+              | image_url: width: deposit_image_srcset_width
+              | image_tag:
+                loading: 'lazy',
+                widths: '135, 180, 270, 360, 540, 720',
+                sizes: deposit_image_sizes,
+                alt: section.settings.buy_text
+            -}}
           </div>
         {%- endif -%}
       </div>
@@ -260,6 +285,26 @@
       "type": "image_picker",
       "id": "buy_img",
       "label": "右侧图片"
+    },
+    {
+      "type": "range",
+      "id": "deposit_image_width",
+      "label": "定金图片宽度（PC）",
+      "min": 80,
+      "max": 400,
+      "step": 5,
+      "unit": "px",
+      "default": 180
+    },
+    {
+      "type": "range",
+      "id": "deposit_image_width_mobile",
+      "label": "定金图片宽度（移动端）",
+      "min": 60,
+      "max": 400,
+      "step": 5,
+      "unit": "px",
+      "default": 135
     },
     {
       "type": "header",
