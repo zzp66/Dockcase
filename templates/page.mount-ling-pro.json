@@ -1,0 +1,225 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "slideshow_tntr4R": {
+      "type": "slideshow",
+      "blocks": {
+        "image_BTNHUr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EMD_1.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BTNHUr"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "newsletter_pre_NTmxhf": {
+      "type": "newsletter-pre",
+      "name": "Newsletter Pre-order",
+      "settings": {
+        "heading": "Subscribe now",
+        "subheading": "to receive launch updates.",
+        "email_label": "Enter your email address",
+        "subscribe_btn_text": "Reserve launch invite",
+        "buy_text": "Pay $1 now.",
+        "buy_info": "Lock your SEB Price!",
+        "buy_product": "dockcase-chizha-mount-ling-dock-for-steam-deck",
+        "buy_btn_text": "Pay Now",
+        "buy_img": "shopify://shop_images/B1-1_da3cdefe-6ee1-46a8-a053-2d935364aaa0.png",
+        "card_background": "#050424",
+        "full_width": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "button_background": "",
+        "button_text_color": "#ffffff",
+        "deposit_button_background": "#ffffff",
+        "deposit_button_text_color": "#ffffff"
+      }
+    },
+    "newsletter_pre_7jfGjj": {
+      "type": "newsletter-pre",
+      "name": "Newsletter Pre-order",
+      "settings": {
+        "heading": "Subscribe now",
+        "subheading": "to receive launch updates.",
+        "email_label": "Enter your email address",
+        "subscribe_btn_text": "Reserve launch invite",
+        "buy_text": "Pay $1 now.",
+        "buy_info": "Lock your SEB Price!",
+        "buy_product": "dockcase-chizha-mount-ling-dock-for-steam-deck",
+        "buy_btn_text": "Pay Now",
+        "buy_img": "shopify://shop_images/B1-1_da3cdefe-6ee1-46a8-a053-2d935364aaa0.png",
+        "card_background": "#050424",
+        "full_width": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "button_background": "",
+        "button_text_color": "#ffffff",
+        "deposit_button_background": "#ffffff",
+        "deposit_button_text_color": "#ffffff"
+      }
+    },
+    "single_image_zQE8KH": {
+      "type": "single-image",
+      "name": "Single Image",
+      "settings": {
+        "single_img_pc": "shopify://shop_images/EDM_2.jpg",
+        "single_img_url": "",
+        "enable_padding_bottom": false,
+        "enable_img_radius": true,
+        "full_width": true,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "single_image_PBWwyq": {
+      "type": "single-image",
+      "name": "Single Image",
+      "settings": {
+        "single_img_pc": "shopify://shop_images/EDM_3.jpg",
+        "single_img_url": "",
+        "enable_padding_bottom": false,
+        "enable_img_radius": true,
+        "full_width": true,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "single_image_en4dRF": {
+      "type": "single-image",
+      "name": "Single Image",
+      "settings": {
+        "single_img_pc": "shopify://shop_images/EDM_4.jpg",
+        "single_img_url": "",
+        "enable_padding_bottom": false,
+        "enable_img_radius": true,
+        "full_width": true,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "single_image_HdAqUr": {
+      "type": "single-image",
+      "name": "Single Image",
+      "settings": {
+        "single_img_pc": "shopify://shop_images/EDM_5.jpg",
+        "single_img_url": "",
+        "enable_padding_bottom": false,
+        "enable_img_radius": true,
+        "full_width": true,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "single_image_krh7mF": {
+      "type": "single-image",
+      "name": "Single Image",
+      "settings": {
+        "single_img_pc": "shopify://shop_images/EDM_6_07f853ac-4d4c-4650-9ec5-c1318de055b0.jpg",
+        "single_img_url": "",
+        "enable_padding_bottom": false,
+        "enable_img_radius": true,
+        "full_width": true,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "single_image_QKPcDm": {
+      "type": "single-image",
+      "name": "Single Image",
+      "settings": {
+        "single_img_pc": "shopify://shop_images/EDM_7.jpg",
+        "single_img_url": "",
+        "enable_padding_bottom": false,
+        "enable_img_radius": true,
+        "full_width": true,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "newsletter_pre_jY8EYK": {
+      "type": "newsletter-pre",
+      "name": "Newsletter Pre-order",
+      "settings": {
+        "heading": "Subscribe now",
+        "subheading": "to receive launch updates.",
+        "email_label": "Enter your email address",
+        "subscribe_btn_text": "Reserve launch invite",
+        "buy_text": "Pay $1 now.",
+        "buy_info": "Lock your SEB Price!",
+        "buy_product": "prepayment-special",
+        "buy_btn_text": "Pay Now",
+        "buy_img": "shopify://shop_images/B1-1_da3cdefe-6ee1-46a8-a053-2d935364aaa0.png",
+        "card_background": "#f3f3f3",
+        "full_width": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#060606",
+        "button_background": "",
+        "button_text_color": "#060606",
+        "deposit_button_background": "#060606",
+        "deposit_button_text_color": "#060606"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_tntr4R",
+    "newsletter_pre_NTmxhf",
+    "single_image_zQE8KH",
+    "single_image_PBWwyq",
+    "single_image_en4dRF",
+    "newsletter_pre_7jfGjj",
+    "single_image_HdAqUr",
+    "single_image_krh7mF",
+    "single_image_QKPcDm",
+    "newsletter_pre_jY8EYK"
+  ]
+}
