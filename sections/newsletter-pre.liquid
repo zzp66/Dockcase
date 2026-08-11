@@ -7,7 +7,7 @@
 
 <style>
   #shopify-section-{{ section.id }} {
-    --newsletter-pre-deposit-image-width: {{ deposit_image_width }}px;
+    --newsletter-pre-side-image-width: {{ deposit_image_width }}px;
   }
 
   #shopify-section-{{ section.id }} .newsletter-pre {
@@ -35,6 +35,7 @@
     justify-items: center;
   }
 
+  #shopify-section-{{ section.id }} .newsletter-pre__card--with-image,
   #shopify-section-{{ section.id }} .newsletter-pre__deposit-card {
     grid-template-columns: minmax(0, 1fr) auto;
     align-items: stretch;
@@ -58,22 +59,24 @@
     justify-content: flex-start;
   }
 
+  #shopify-section-{{ section.id }} .newsletter-pre__card--with-image > .newsletter-pre__header,
+  #shopify-section-{{ section.id }} .newsletter-pre__card--with-image > .newsletter-pre__actions,
   #shopify-section-{{ section.id }} .newsletter-pre__deposit-card > .newsletter-pre__header,
   #shopify-section-{{ section.id }} .newsletter-pre__deposit-card > .newsletter-pre__actions {
     grid-column: 1;
   }
 
-  #shopify-section-{{ section.id }} .newsletter-pre__deposit-image {
+  #shopify-section-{{ section.id }} .newsletter-pre__side-image {
     grid-column: 2;
     grid-row: 1 / -1;
     align-self: center;
     border-radius: var(--rounded);
     overflow: hidden;
-    width: var(--newsletter-pre-deposit-image-width);
-    max-width: var(--newsletter-pre-deposit-image-width);
+    width: var(--newsletter-pre-side-image-width);
+    max-width: var(--newsletter-pre-side-image-width);
   }
 
-  #shopify-section-{{ section.id }} .newsletter-pre__deposit-image img {
+  #shopify-section-{{ section.id }} .newsletter-pre__side-image img {
     width: 100%;
     height: auto;
     display: block;
@@ -153,7 +156,7 @@
 
   @media screen and (max-width: 767px) {
     #shopify-section-{{ section.id }} {
-      --newsletter-pre-deposit-image-width: {{ deposit_image_width_mobile }}px;
+      --newsletter-pre-side-image-width: {{ deposit_image_width_mobile }}px;
     }
 
     #shopify-section-{{ section.id }} .newsletter-pre {
@@ -171,16 +174,17 @@
       gap: var(--spacing-5);
     }
 
+    #shopify-section-{{ section.id }} .newsletter-pre__card--with-image,
     #shopify-section-{{ section.id }} .newsletter-pre__deposit-card {
       grid-template-columns: minmax(0, 1fr) auto;
       column-gap: var(--spacing-5);
     }
 
-    #shopify-section-{{ section.id }} .newsletter-pre__deposit-image {
+    #shopify-section-{{ section.id }} .newsletter-pre__side-image {
       grid-column: 2;
       grid-row: 1 / -1;
-      width: var(--newsletter-pre-deposit-image-width);
-      max-width: var(--newsletter-pre-deposit-image-width);
+      width: var(--newsletter-pre-side-image-width);
+      max-width: var(--newsletter-pre-side-image-width);
     }
 
     #shopify-section-{{ section.id }} .newsletter-pre__email {
@@ -193,7 +197,7 @@
 <div {% render 'section-properties' %}>
   <div class="section-stack">
     <div class="newsletter-pre">
-      <div class="newsletter-pre__card">
+      <div class="newsletter-pre__card{% if section.settings.subscribe_img != blank %} newsletter-pre__card--with-image{% endif %}">
         <div class="newsletter-pre__header">
           <div class="v-stack gap-2">
             {%- if section.settings.heading != blank -%}
@@ -263,6 +267,22 @@
             </div>
           </div>
         {%- endform -%}
+
+        {%- if section.settings.subscribe_img != blank -%}
+          {%- assign side_image_srcset_width = deposit_image_width | at_least: deposit_image_width_mobile | times: 2 -%}
+          {%- capture side_image_sizes -%}(max-width: 767px) {{ deposit_image_width_mobile }}px, {{ deposit_image_width }}px{%- endcapture -%}
+          <div class="newsletter-pre__side-image">
+            {{-
+              section.settings.subscribe_img
+              | image_url: width: side_image_srcset_width
+              | image_tag:
+                loading: 'lazy',
+                widths: '135, 180, 270, 360, 540, 720',
+                sizes: side_image_sizes,
+                alt: section.settings.heading
+            -}}
+          </div>
+        {%- endif -%}
       </div>
 
       <div class="newsletter-pre__deposit-card">
@@ -309,16 +329,16 @@
         </div>
 
         {%- if section.settings.buy_img != blank -%}
-          {%- assign deposit_image_srcset_width = deposit_image_width | at_least: deposit_image_width_mobile | times: 2 -%}
-          {%- capture deposit_image_sizes -%}(max-width: 767px) {{ deposit_image_width_mobile }}px, {{ deposit_image_width }}px{%- endcapture -%}
-          <div class="newsletter-pre__deposit-image">
+          {%- assign side_image_srcset_width = deposit_image_width | at_least: deposit_image_width_mobile | times: 2 -%}
+          {%- capture side_image_sizes -%}(max-width: 767px) {{ deposit_image_width_mobile }}px, {{ deposit_image_width }}px{%- endcapture -%}
+          <div class="newsletter-pre__side-image">
             {{-
               section.settings.buy_img
-              | image_url: width: deposit_image_srcset_width
+              | image_url: width: side_image_srcset_width
               | image_tag:
                 loading: 'lazy',
                 widths: '135, 180, 270, 360, 540, 720',
-                sizes: deposit_image_sizes,
+                sizes: side_image_sizes,
                 alt: section.settings.buy_text
             -}}
           </div>
@@ -370,6 +390,11 @@
       "default": "Reserve launch invite"
     },
     {
+      "type": "image_picker",
+      "id": "subscribe_img",
+      "label": "订阅图片"
+    },
+    {
       "type": "header",
       "content": "定金支付"
     },
@@ -398,12 +423,16 @@
     {
       "type": "image_picker",
       "id": "buy_img",
-      "label": "右侧图片"
+      "label": "定金图片"
+    },
+    {
+      "type": "header",
+      "content": "侧边图片尺寸"
     },
     {
       "type": "range",
       "id": "deposit_image_width",
-      "label": "定金图片宽度（PC）",
+      "label": "图片宽度（PC）",
       "min": 80,
       "max": 400,
       "step": 5,
@@ -413,7 +442,7 @@
     {
       "type": "range",
       "id": "deposit_image_width_mobile",
-      "label": "定金图片宽度（移动端）",
+      "label": "图片宽度（移动端）",
       "min": 60,
       "max": 400,
       "step": 5,
